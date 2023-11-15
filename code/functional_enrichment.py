@@ -6,7 +6,6 @@ import pandas as pd
 # Definicion de variables
 max_fdr = 0.01 # False Discovery Rate
 specie = 9606 # Homo Sapiens
-category_p = "Process"
 string_api_url = "https://version-11-5.string-db.org/api" # APIRest
 output_format = "json" 
 method = "enrichment" # haremos un enriquecimiento funcional
@@ -32,14 +31,8 @@ for gene in gene_names:
                 }
     # enviamos la peticion
     response = requests.get(ids_url, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        if data: # guardamos los id
-            string_ids.append(data[0]['stringId'])
-        else: 
-            print(f"String Id for gene {gene} not found")
-    else:
-        print(f"Error asking for gene {gene}, status code {response.status_code}")
+    data = response.json()
+    string_ids.append(data[0]['stringId'])
 
 # creamos la url para el enriquecimiento funcional
 request_url = "/".join([string_api_url, output_format, method])
@@ -63,13 +56,14 @@ for row in data:
     term = row["term"]
     preferred_names = ",".join(row["preferredNames"])
     fdr = float(row["fdr"])
+    p_value = float(row["p_value"])
     description = row["description"]
     category = row["category"]
-    # filtramos por el fdr y la categoria
-    if category == category_p and fdr < max_fdr:
-        df_rows.append([term, preferred_names, fdr, category, description])
+    # filtramos por el fdr
+    if fdr < max_fdr:
+        df_rows.append([term, preferred_names, fdr, category, p_value, description])
 # creamos el DataFrame
-df = pd.DataFrame(df_rows, columns=["Term", "Preferred Names", "FDR", "Category", "Description"])
+df = pd.DataFrame(df_rows, columns=["Term", "Preferred Names", "FDR", "Category", "p-value", "Description"])
 
 # construimos la ruta del archivo de salida
 output = os.path.join(path_script, "../results/functional_enrichment.csv")
