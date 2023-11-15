@@ -25,7 +25,7 @@ string_api_url = "https://version-11-5.string-db.org/api"
 
 # Anyadimos el gen de interes
 genes_ids = list(map(str, genes_ids))
-#genes_ids.append("2784")
+genes_ids.append("2784")
 
 params = {
     "identifiers" : "%0d".join(genes_ids), # your genes
