@@ -5,7 +5,7 @@ data <- read.csv("../results/network.csv")
 
 my_network <- graph.data.frame(data, directed = FALSE)
 
-jpeg("../report/figures/network_igraph.jpeg")
+svg("../report/figures/network_igraph.svg")
 # Define un vector de colores para los nodos
 # Inicialmente todos los nodos son de color "yellow"
 colores_nodos <- rep("yellow", vcount(my_network))  
@@ -22,7 +22,7 @@ dev.off()
 # Calcumos las comunidades mediante el método "cluster_edge_betweenness"
 ceb <- cluster_edge_betweenness(my_network)
 
-jpeg("../report/figures/network_comunidades.jpeg")
+svg("../report/figures/network_comunidades.svg")
 plot(ceb, my_network,
      vertex.label.cex = 0.5,
      vertex.label.color = "black",
