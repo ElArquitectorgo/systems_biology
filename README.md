@@ -7,5 +7,5 @@ sistems_biology es un proyecto de la asignatura Biología de Sistemas en Ingenie
 - Víctor Guirado Osorio
 - Susana Rocío Fernández Giaccomassi
 - Pablo Bermúdez Gámez
-- Juan Carlos Verara Ruz
+- Juan Carlos Vergara Ruz
 
