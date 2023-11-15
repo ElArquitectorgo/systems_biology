@@ -4,8 +4,8 @@ sistems_biology es un proyecto de la asignatura Biología de Sistemas en Ingenie
 
 ### Participantes
 
-- Victor Guirado Osorio
-- Susana Rocíó Fernández Giaccomassi
+- Víctor Guirado Osorio
+- Susana Rocío Fernández Giaccomassi
 - Pablo Bermúdez Gámez
 - Juan Carlos Verara Ruz
 
