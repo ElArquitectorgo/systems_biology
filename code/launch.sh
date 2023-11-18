@@ -15,7 +15,7 @@ python3 network_obtention.py 1> /dev/null
 echo "Procesando la red con igraph"
 
 # Cargamos la red en R y devolvemos los genes de interes
-Rscript network_evaluation.R 1> /dev/null
+python3 network_evaluation.py 1> /dev/null
 
 # Hacemos el enriquecimiento funcional
 python3 functional_enrichment.py 1> /dev/null

@@ -1,0 +1,991 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{29}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Rodolaki2023}
+\begin{botherref}
+\oauthor{\bsnm{Rodolaki}, \binits{K.}},
+\oauthor{\bsnm{Pergialiotis}, \binits{V.}},
+\oauthor{\bsnm{Iakovidou}, \binits{N.}},
+\oauthor{\bsnm{Boutsikou}, \binits{T.}},
+\oauthor{\bsnm{Iliodromiti}, \binits{Z.}},
+\oauthor{\bsnm{Kanaka-Gantenbein}, \binits{C.}}:
+The impact of maternal diabetes on the future health and neurodevelopment of
+  the offspring: a review of the evidence
+(2023).
+doi:\doiurl{10.3389/fendo.2023.1125628}
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem{ADB2009}
+\begin{botherref}
+\oauthor{\bsnm{Association}, \binits{A.D.}}:
+Diagnosis and classification of diabetes mellitus
+(2009).
+doi:\doiurl{10.2337/dc09-S062}
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem{Grazia2020}
+\begin{botherref}
+\oauthor{\bsnm{Dalfrà}, \binits{M.G.}},
+\oauthor{\bsnm{Burlina}, \binits{S.}},
+\oauthor{\bsnm{Vescovo}, \binits{G.G.D.}},
+\oauthor{\bsnm{Lapolla}, \binits{A.}}:
+Genetics and Epigenetics: New Insight on Gestational Diabetes Mellitus
+(2020).
+doi:\doiurl{10.3389/fendo.2020.602477}
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem{Plows2018}
+\begin{botherref}
+\oauthor{\bsnm{Plows}, \binits{J.F.}},
+\oauthor{\bsnm{Stanley}, \binits{J.L.}},
+\oauthor{\bsnm{Baker}, \binits{P.N.}},
+\oauthor{\bsnm{Reynolds}, \binits{C.M.}},
+\oauthor{\bsnm{Vickers}, \binits{M.H.}}:
+The pathophysiology of gestational diabetes mellitus
+(2018).
+doi:\doiurl{10.3390/ijms19113342}
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem{Cho2018}
+\begin{barticle}
+\bauthor{\bsnm{Cho}, \binits{N.H.}},
+\bauthor{\bsnm{Shaw}, \binits{J.E.}},
+\bauthor{\bsnm{Karuranga}, \binits{S.}},
+\bauthor{\bsnm{Huang}, \binits{Y.}},
+\bauthor{\bparticle{da} \bsnm{Rocha~Fernandes}, \binits{J.D.}},
+\bauthor{\bsnm{Ohlrogge}, \binits{A.W.}},
+\bauthor{\bsnm{Malanda}, \binits{B.}}:
+\batitle{Idf diabetes atlas: Global estimates of diabetes prevalence for 2017
+  and projections for 2045}.
+\bjtitle{Diabetes Research and Clinical Practice}
+\bvolume{138},
+\bfpage{271}--\blpage{281}
+(\byear{2018}).
+doi:\doiurl{10.1016/J.DIABRES.2018.02.023}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{Vounzoulaki2020}
+\begin{botherref}
+\oauthor{\bsnm{Vounzoulaki}, \binits{E.}},
+\oauthor{\bsnm{Khunti}, \binits{K.}},
+\oauthor{\bsnm{Abner}, \binits{S.C.}},
+\oauthor{\bsnm{Tan}, \binits{B.K.}},
+\oauthor{\bsnm{Davies}, \binits{M.J.}},
+\oauthor{\bsnm{Gillies}, \binits{C.L.}}:
+Progression to type 2 diabetes in women with a known history of gestational
+  diabetes: systematic review and meta-analysis
+(2020).
+doi:\doiurl{10.1136/bmj.m1361}
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem{You2021}
+\begin{botherref}
+\oauthor{\bsnm{You}, \binits{H.}},
+\oauthor{\bsnm{Hu}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Luo}, \binits{B.}},
+\oauthor{\bsnm{Lei}, \binits{A.}}:
+Risk of type 2 diabetes mellitus after gestational diabetes mellitus: A
+  systematic review & meta-analysis.
+Indian Council of Medical Research
+(2021).
+doi:\doiurl{10.4103/ijmr.IJMR_852_18}
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{Guariguata2014}
+\begin{barticle}
+\bauthor{\bsnm{Guariguata}, \binits{L.}},
+\bauthor{\bsnm{Linnenkamp}, \binits{U.}},
+\bauthor{\bsnm{Beagley}, \binits{J.}},
+\bauthor{\bsnm{Whiting}, \binits{D.R.}},
+\bauthor{\bsnm{Cho}, \binits{N.H.}}:
+\batitle{Global estimates of the prevalence of hyperglycaemia in pregnancy.}
+\bjtitle{Diabetes research and clinical practice}
+\bvolume{103},
+\bfpage{176}--\blpage{85}
+(\byear{2014}).
+doi:\doiurl{10.1016/j.diabres.2013.11.003}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{Depla2021}
+\begin{barticle}
+\bauthor{\bsnm{Depla}, \binits{A.L.}},
+\bauthor{\bsnm{Wit}, \binits{L.D.}},
+\bauthor{\bsnm{Steenhuis}, \binits{T.J.}},
+\bauthor{\bsnm{Slieker}, \binits{M.G.}},
+\bauthor{\bsnm{Voormolen}, \binits{D.N.}},
+\bauthor{\bsnm{Scheffer}, \binits{P.G.}},
+\bauthor{\bsnm{Heus}, \binits{R.D.}},
+\bauthor{\bsnm{Rijn}, \binits{B.B.V.}},
+\bauthor{\bsnm{Bekker}, \binits{M.N.}}:
+\batitle{Effect of maternal diabetes on fetal heart function on
+  echocardiography: systematic review and meta-analysis}.
+\bjtitle{Ultrasound Obstet Gynecol}
+\bvolume{57},
+\bfpage{539}--\blpage{550}
+(\byear{2021}).
+doi:\doiurl{10.1002/uog.22163}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Xie2022}
+\begin{botherref}
+\oauthor{\bsnm{Xie}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}},
+\oauthor{\bsnm{Xiao}, \binits{S.}},
+\oauthor{\bsnm{Qiu}, \binits{L.}},
+\oauthor{\bsnm{Yu}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}}:
+Association of gestational diabetes mellitus with overall and type specific
+  cardiovascular and cerebrovascular diseases: systematic review and
+  meta-analysis
+(2022).
+doi:\doiurl{10.1136/bmj-2022-070244}
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{Shah2011}
+\begin{botherref}
+\oauthor{\bsnm{Shah}, \binits{A.}},
+\oauthor{\bsnm{Stotland}, \binits{N.E.}},
+\oauthor{\bsnm{Cheng}, \binits{Y.W.}},
+\oauthor{\bsnm{Ramos}, \binits{G.A.}},
+\oauthor{\bsnm{Caughey}, \binits{A.B.}}:
+The association between body mass index and gestational diabetes mellitus
+  varies by race/ethnicity.
+American Journal of Perinatology
+\textbf{28}
+(2011).
+doi:\doiurl{10.1055/s-0031-1272968}
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{Haroush2004}
+\begin{botherref}
+\oauthor{\bsnm{Ben-Haroush}, \binits{A.}},
+\oauthor{\bsnm{Yogev}, \binits{Y.}},
+\oauthor{\bsnm{Hod}, \binits{M.}}:
+Epidemiology of gestational diabetes mellitus and its association with Type 2
+  diabetes
+(2004).
+doi:\doiurl{10.1046/j.1464-5491.2003.00985.x}
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{Pantham2015}
+\begin{botherref}
+\oauthor{\bsnm{Pantham}, \binits{P.}},
+\oauthor{\bsnm{Aye}, \binits{I.L.M.H.}},
+\oauthor{\bsnm{Powell}, \binits{T.L.}}:
+Inflammation in maternal obesity and gestational diabetes mellitus.
+Placenta
+\textbf{36}
+(2015).
+doi:\doiurl{10.1016/j.placenta.2015.04.006}
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem{Gong2016}
+\begin{botherref}
+\oauthor{\bsnm{Gong}, \binits{L.L.}},
+\oauthor{\bsnm{Liu}, \binits{H.}},
+\oauthor{\bsnm{Liu}, \binits{L.H.}}:
+Relationship between hypothyroidism and the incidence of gestational diabetes:
+  A meta-analysis.
+Taiwanese Journal of Obstetrics and Gynecology
+\textbf{55}
+(2016).
+doi:\doiurl{10.1016/j.tjog.2016.02.004}
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem{Topaloglu2022}
+\begin{botherref}
+\oauthor{\bparticle{Ömercan} \bsnm{Topaloǧlu}},
+\oauthor{\bsnm{Uzun}, \binits{M.}},
+\oauthor{\bsnm{Topaloǧlu}, \binits{S.N.}},
+\oauthor{\bsnm{Sahin}, \binits{I.}}:
+Isolated maternal hypothyroxinemia may be associated with insulin requirement
+  in gestational diabetes mellitus.
+Hormone and Metabolic Research
+\textbf{55}
+(2022).
+doi:\doiurl{10.1055/a-2003-0211}
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem{Metzger2010}
+\begin{botherref}
+\oauthor{\bsnm{Metzger}, \binits{B.E.}},
+\oauthor{\bsnm{Persson}, \binits{B.}},
+\oauthor{\bsnm{Lowe}, \binits{L.P.}},
+\oauthor{\bsnm{Dyer}, \binits{A.R.}},
+\oauthor{\bsnm{Cruickshank}, \binits{J.K.}},
+\oauthor{\bsnm{Deerochanawong}, \binits{C.}},
+\oauthor{\bsnm{Halliday}, \binits{H.L.}},
+\oauthor{\bsnm{Hennis}, \binits{A.J.}},
+\oauthor{\bsnm{Liley}, \binits{H.}},
+\oauthor{\bsnm{Ng}, \binits{P.C.}},
+\oauthor{\bsnm{Coustan}, \binits{D.R.}},
+\oauthor{\bsnm{Hadden}, \binits{D.R.}},
+\oauthor{\bsnm{Hod}, \binits{M.}},
+\oauthor{\bsnm{Oats}, \binits{J.J.N.}},
+\oauthor{\bsnm{Trimble}, \binits{E.R.}}:
+Hyperglycemia and adverse pregnancy outcome study: Neonatal glycemia.
+Pediatrics
+\textbf{126}
+(2010).
+doi:\doiurl{10.1542/peds.2009-2257}
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem{Dabelea2000}
+\begin{botherref}
+\oauthor{\bsnm{Dabelea}, \binits{D.}},
+\oauthor{\bsnm{Hanson}, \binits{R.L.}},
+\oauthor{\bsnm{Lindsay}, \binits{R.S.}},
+\oauthor{\bsnm{Pettitt}, \binits{D.J.}},
+\oauthor{\bsnm{Imperatore}, \binits{G.}},
+\oauthor{\bsnm{Gabir}, \binits{M.M.}},
+\oauthor{\bsnm{Roumain}, \binits{J.}},
+\oauthor{\bsnm{Bennett}, \binits{P.H.}},
+\oauthor{\bsnm{Knowler}, \binits{W.C.}}:
+Intrauterine exposure to diabetes conveys risks for type 2 diabetes and
+  obesity: A study of discordant sibships.
+Diabetes
+\textbf{49}
+(2000).
+doi:\doiurl{10.2337/diabetes.49.12.2208}
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem{Ao2015}
+\begin{botherref}
+\oauthor{\bsnm{Ao}, \binits{D.}},
+\oauthor{\bsnm{Wang}, \binits{H.J.}},
+\oauthor{\bsnm{Wang}, \binits{L.F.}},
+\oauthor{\bsnm{Song}, \binits{J.Y.}},
+\oauthor{\bsnm{Yang}, \binits{H.X.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}}:
+The rs2237892 polymorphism in kcnq1 influences gestational diabetes mellitus
+  and glucose levels: A case-control study and meta-analysis.
+PLoS ONE
+\textbf{10}
+(2015).
+doi:\doiurl{10.1371/journal.pone.0128901}
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem{Piccini2018}
+\begin{botherref}
+\oauthor{\bsnm{Piccini}, \binits{B.}},
+\oauthor{\bsnm{Coviello}, \binits{C.}},
+\oauthor{\bsnm{Drovandi}, \binits{L.}},
+\oauthor{\bsnm{Rosangela}, \binits{A.}},
+\oauthor{\bsnm{Monzali}, \binits{F.}},
+\oauthor{\bsnm{Casalini}, \binits{E.}},
+\oauthor{\bsnm{Giglio}, \binits{S.}},
+\oauthor{\bsnm{Toni}, \binits{S.}},
+\oauthor{\bsnm{Dani}, \binits{C.}}:
+Transient neonatal diabetes mellitus in a very preterm infant due to abcc8
+  mutation.
+AJP Reports
+\textbf{8}
+(2018).
+doi:\doiurl{10.1055/s-0038-1636427}
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem{Khan2020}
+\begin{botherref}
+\oauthor{\bsnm{Khan}, \binits{V.}},
+\oauthor{\bsnm{Verma}, \binits{A.K.}},
+\oauthor{\bsnm{Bhatt}, \binits{D.}},
+\oauthor{\bsnm{Khan}, \binits{S.}},
+\oauthor{\bsnm{Hasan}, \binits{R.}},
+\oauthor{\bsnm{Goyal}, \binits{Y.}},
+\oauthor{\bsnm{Ramachandran}, \binits{S.}},
+\oauthor{\bsnm{Alsahli}, \binits{M.A.}},
+\oauthor{\bsnm{Rahmani}, \binits{A.H.}},
+\oauthor{\bsnm{Almatroudi}, \binits{A.}},
+\oauthor{\bsnm{Shareef}, \binits{M.Y.}},
+\oauthor{\bsnm{Meena}, \binits{B.}},
+\oauthor{\bsnm{Dev}, \binits{K.}}:
+Association of genetic variants of kcnj11 and kcnq1 genes with risk of type 2
+  diabetes mellitus (t2dm) in the indian population: A case-control study.
+International Journal of Endocrinology
+\textbf{2020}
+(2020).
+doi:\doiurl{10.1155/2020/5924756}
+\end{botherref}
+\endbibitem
+
+%%% 21
+\bibitem{Feng2019}
+\begin{botherref}
+\oauthor{\bsnm{Feng}, \binits{Y.}},
+\oauthor{\bsnm{Jiang}, \binits{C.D.}},
+\oauthor{\bsnm{Chang}, \binits{A.M.}},
+\oauthor{\bsnm{Shi}, \binits{Y.}},
+\oauthor{\bsnm{Gao}, \binits{J.}},
+\oauthor{\bsnm{Zhu}, \binits{L.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}}:
+Interactions among insulin resistance, inflammation factors, obesity-related
+  gene polymorphisms, environmental risk factors, and diet in the development
+  of gestational diabetes mellitus
+(2019).
+doi:\doiurl{10.1080/14767058.2018.1446207}
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem{Hsiao2013}
+\begin{botherref}
+\oauthor{\bsnm{Hsiao}, \binits{T.J.}},
+\oauthor{\bsnm{Hwang}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{C.H.}},
+\oauthor{\bsnm{Chang}, \binits{H.M.}},
+\oauthor{\bsnm{Lin}, \binits{E.}}:
+Association of the c825t polymorphism in the gnb3 gene with obesity and
+  metabolic phenotypes in a taiwanese population.
+Genes and Nutrition
+\textbf{8}
+(2013).
+doi:\doiurl{10.1007/s12263-012-0304-8}
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem{Kalhan1999}
+\begin{botherref}
+\oauthor{\bsnm{Kalhan}, \binits{S.C.}},
+\oauthor{\bsnm{Devapatla}, \binits{S.}}:
+Pregnancy, insulin resistance and nitrogen accretion
+(1999).
+doi:\doiurl{10.1097/00075197-199909000-00001}
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem{Moyce2018}
+\begin{botherref}
+\oauthor{\bsnm{Moyce}, \binits{B.L.}},
+\oauthor{\bsnm{Dolinsky}, \binits{V.W.}}:
+Maternal β-Cell adaptations in pregnancy and placental signalling:
+  Implications for gestational diabetes
+(2018).
+doi:\doiurl{10.3390/ijms19113467}
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem{Rizvi2016}
+\begin{botherref}
+\oauthor{\bsnm{Rizvi}, \binits{S.}},
+\oauthor{\bsnm{Raza}, \binits{S.T.}},
+\oauthor{\bsnm{Rahman}, \binits{Q.}},
+\oauthor{\bsnm{Mahdi}, \binits{F.}}:
+Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide polymorphism
+  in the risk prediction of type 2 diabetes mellitus
+(2016).
+doi:\doiurl{10.1007/s13205-016-0572-x}
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem{Perez2020}
+\begin{botherref}
+\oauthor{\bsnm{Pérez-Pérez}, \binits{A.}},
+\oauthor{\bsnm{Vilariño-García}, \binits{T.}},
+\oauthor{\bsnm{Guadix}, \binits{P.}},
+\oauthor{\bsnm{Dueñas}, \binits{J.L.}},
+\oauthor{\bsnm{Sánchez-Margalet}, \binits{V.}}:
+Leptin and nutrition in gestational diabetes.
+Nutrients
+\textbf{12}
+(2020).
+doi:\doiurl{10.3390/nu12071970}
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem{Xu2014}
+\begin{botherref}
+\oauthor{\bsnm{Xu}, \binits{J.}},
+\oauthor{\bsnm{Zhao}, \binits{Y.H.}},
+\oauthor{\bsnm{Chen}, \binits{Y.P.}},
+\oauthor{\bsnm{Yuan}, \binits{X.L.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Zhu}, \binits{H.}},
+\oauthor{\bsnm{Lu}, \binits{C.M.}}:
+Maternal circulating concentrations of tumor necrosis factor-alpha, leptin, and
+  adiponectin in gestational diabetes mellitus: A systematic review and
+  meta-analysis.
+Scientific World Journal
+\textbf{2014}
+(2014).
+doi:\doiurl{10.1155/2014/926932}
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem{Desoye2021}
+\begin{botherref}
+\oauthor{\bsnm{Desoye}, \binits{G.}},
+\oauthor{\bsnm{Herrera}, \binits{E.}}:
+Adipose tissue development and lipid metabolism in the human fetus: The 2020
+  perspective focusing on maternal diabetes and obesity
+(2021).
+doi:\doiurl{10.1016/j.plipres.2020.101082}
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem{Catalano2014}
+\begin{botherref}
+\oauthor{\bsnm{Catalano}, \binits{P.M.}}:
+Trying to understand gestational diabetes
+(2014).
+doi:\doiurl{10.1111/dme.12381}
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>The impact of maternal diabetes on the future health and
+  neurodevelopment of the offspring: a review of the evidence</p></title>
+  <aug>
+    <au><snm>Rodolaki</snm><fnm>K</fnm></au>
+    <au><snm>Pergialiotis</snm><fnm>V</fnm></au>
+    <au><snm>Iakovidou</snm><fnm>N</fnm></au>
+    <au><snm>Boutsikou</snm><fnm>T</fnm></au>
+    <au><snm>Iliodromiti</snm><fnm>Z</fnm></au>
+    <au><snm>Kanaka Gantenbein</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Frontiers in Endocrinology</source>
+  <pubdate>2023</pubdate>
+  <volume>14</volume>
+</bibl>
+
+<bibl id="B2">
+  <title><p>Diagnosis and classification of diabetes mellitus</p></title>
+  <aug>
+    <au><snm>Association</snm><fnm>AD</fnm></au>
+  </aug>
+  <source>Diabetes Care</source>
+  <pubdate>2009</pubdate>
+  <volume>32</volume>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Genetics and Epigenetics: New Insight on Gestational Diabetes
+  Mellitus</p></title>
+  <aug>
+    <au><snm>Dalfrà</snm><fnm>MG</fnm></au>
+    <au><snm>Burlina</snm><fnm>S</fnm></au>
+    <au><snm>Vescovo</snm><fnm>GGD</fnm></au>
+    <au><snm>Lapolla</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Frontiers in Endocrinology</source>
+  <pubdate>2020</pubdate>
+  <volume>11</volume>
+</bibl>
+
+<bibl id="B4">
+  <title><p>The pathophysiology of gestational diabetes mellitus</p></title>
+  <aug>
+    <au><snm>Plows</snm><fnm>JF</fnm></au>
+    <au><snm>Stanley</snm><fnm>JL</fnm></au>
+    <au><snm>Baker</snm><fnm>PN</fnm></au>
+    <au><snm>Reynolds</snm><fnm>CM</fnm></au>
+    <au><snm>Vickers</snm><fnm>MH</fnm></au>
+  </aug>
+  <source>International Journal of Molecular Sciences</source>
+  <pubdate>2018</pubdate>
+  <volume>19</volume>
+</bibl>
+
+<bibl id="B5">
+  <title><p>IDF Diabetes Atlas: Global estimates of diabetes prevalence for
+  2017 and projections for 2045</p></title>
+  <aug>
+    <au><snm>Cho</snm><fnm>N. H.</fnm></au>
+    <au><snm>Shaw</snm><fnm>J. E.</fnm></au>
+    <au><snm>Karuranga</snm><fnm>S.</fnm></au>
+    <au><snm>Huang</snm><fnm>Y.</fnm></au>
+    <au><snm>Rocha Fernandes</snm><fnm>J. D.</fnm></au>
+    <au><snm>Ohlrogge</snm><fnm>A. W.</fnm></au>
+    <au><snm>Malanda</snm><fnm>B.</fnm></au>
+  </aug>
+  <source>Diabetes Research and Clinical Practice</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2018</pubdate>
+  <volume>138</volume>
+  <fpage>271</fpage>
+  <lpage>281</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>Progression to type 2 diabetes in women with a known history of
+  gestational diabetes: systematic review and meta-analysis</p></title>
+  <aug>
+    <au><snm>Vounzoulaki</snm><fnm>E</fnm></au>
+    <au><snm>Khunti</snm><fnm>K</fnm></au>
+    <au><snm>Abner</snm><fnm>SC</fnm></au>
+    <au><snm>Tan</snm><fnm>BK</fnm></au>
+    <au><snm>Davies</snm><fnm>MJ</fnm></au>
+    <au><snm>Gillies</snm><fnm>CL</fnm></au>
+  </aug>
+  <pubdate>2020</pubdate>
+  <url>http://dx.doi.org/10.1136/bmj.m1361</url>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Risk of type 2 diabetes mellitus after gestational diabetes
+  mellitus: A systematic review & meta-analysis</p></title>
+  <aug>
+    <au><snm>You</snm><fnm>H</fnm></au>
+    <au><snm>Hu</snm><fnm>J</fnm></au>
+    <au><snm>Liu</snm><fnm>Y</fnm></au>
+    <au><snm>Luo</snm><fnm>B</fnm></au>
+    <au><snm>Lei</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Indian Journal of Medical Research, Supplement</source>
+  <publisher>Indian Council of Medical Research</publisher>
+  <pubdate>2021</pubdate>
+  <volume>154</volume>
+  <fpage>62</fpage>
+  <lpage>77</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Global estimates of the prevalence of hyperglycaemia in
+  pregnancy.</p></title>
+  <aug>
+    <au><snm>Guariguata</snm><fnm>L</fnm></au>
+    <au><snm>Linnenkamp</snm><fnm>U</fnm></au>
+    <au><snm>Beagley</snm><fnm>J</fnm></au>
+    <au><snm>Whiting</snm><fnm>D R</fnm></au>
+    <au><snm>Cho</snm><fnm>N H</fnm></au>
+  </aug>
+  <source>Diabetes research and clinical practice</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2014</pubdate>
+  <volume>103</volume>
+  <fpage>176</fpage>
+  <lpage>85</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/24300020</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Effect of maternal diabetes on fetal heart function on
+  echocardiography: systematic review and meta-analysis</p></title>
+  <aug>
+    <au><snm>Depla</snm><fnm>A L</fnm></au>
+    <au><snm>Wit</snm><fnm>L DE</fnm></au>
+    <au><snm>Steenhuis</snm><fnm>T J</fnm></au>
+    <au><snm>Slieker</snm><fnm>M G</fnm></au>
+    <au><snm>Voormolen</snm><fnm>D N</fnm></au>
+    <au><snm>Scheffer</snm><fnm>P G</fnm></au>
+    <au><snm>Heus</snm><fnm>R DE</fnm></au>
+    <au><snm>Rijn</snm><fnm>BBV</fnm></au>
+    <au><snm>Bekker</snm><fnm>M N</fnm></au>
+  </aug>
+  <source>Ultrasound Obstet Gynecol</source>
+  <pubdate>2021</pubdate>
+  <volume>57</volume>
+  <fpage>539</fpage>
+  <lpage>550</lpage>
+  <url>https://obgyn.onlinelibrary.wiley.com/doi/10.1002/uog.22163</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Association of gestational diabetes mellitus with overall and type
+  specific cardiovascular and cerebrovascular diseases: systematic review and
+  meta-analysis</p></title>
+  <aug>
+    <au><snm>Xie</snm><fnm>W</fnm></au>
+    <au><snm>Wang</snm><fnm>Y</fnm></au>
+    <au><snm>Xiao</snm><fnm>S</fnm></au>
+    <au><snm>Qiu</snm><fnm>L</fnm></au>
+    <au><snm>Yu</snm><fnm>Y</fnm></au>
+    <au><snm>Zhang</snm><fnm>Z</fnm></au>
+  </aug>
+  <pubdate>2022</pubdate>
+  <url>http://dx.doi.org/10.1136/</url>
+</bibl>
+
+<bibl id="B11">
+  <title><p>The association between body mass index and gestational diabetes
+  mellitus varies by race/ethnicity</p></title>
+  <aug>
+    <au><snm>Shah</snm><fnm>A</fnm></au>
+    <au><snm>Stotland</snm><fnm>NE</fnm></au>
+    <au><snm>Cheng</snm><fnm>YW</fnm></au>
+    <au><snm>Ramos</snm><fnm>GA</fnm></au>
+    <au><snm>Caughey</snm><fnm>AB</fnm></au>
+  </aug>
+  <source>American Journal of Perinatology</source>
+  <pubdate>2011</pubdate>
+  <volume>28</volume>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Epidemiology of gestational diabetes mellitus and its association
+  with Type 2 diabetes</p></title>
+  <aug>
+    <au><snm>Ben Haroush</snm><fnm>A.</fnm></au>
+    <au><snm>Yogev</snm><fnm>Y.</fnm></au>
+    <au><snm>Hod</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Diabetic Medicine</source>
+  <pubdate>2004</pubdate>
+  <volume>21</volume>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Inflammation in maternal obesity and gestational diabetes
+  mellitus</p></title>
+  <aug>
+    <au><snm>Pantham</snm><fnm>P.</fnm></au>
+    <au><snm>Aye</snm><fnm>I. L.M.H.</fnm></au>
+    <au><snm>Powell</snm><fnm>T. L.</fnm></au>
+  </aug>
+  <source>Placenta</source>
+  <pubdate>2015</pubdate>
+  <volume>36</volume>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Relationship between hypothyroidism and the incidence of
+  gestational diabetes: A meta-analysis</p></title>
+  <aug>
+    <au><snm>Gong</snm><fnm>LL</fnm></au>
+    <au><snm>Liu</snm><fnm>H</fnm></au>
+    <au><snm>Liu</snm><fnm>LH</fnm></au>
+  </aug>
+  <source>Taiwanese Journal of Obstetrics and Gynecology</source>
+  <pubdate>2016</pubdate>
+  <volume>55</volume>
+</bibl>
+
+<bibl id="B15">
+  <title><p>Isolated Maternal Hypothyroxinemia May be Associated with Insulin
+  Requirement in Gestational Diabetes Mellitus</p></title>
+  <aug>
+    <au><cnm>Topaloǧlu</cnm></au>
+    <au><snm>Uzun</snm><fnm>M</fnm></au>
+    <au><snm>Topaloǧlu</snm><fnm>SN</fnm></au>
+    <au><snm>Sahin</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Hormone and Metabolic Research</source>
+  <pubdate>2022</pubdate>
+  <volume>55</volume>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Hyperglycemia and adverse pregnancy outcome study: Neonatal
+  glycemia</p></title>
+  <aug>
+    <au><snm>Metzger</snm><fnm>BE</fnm></au>
+    <au><snm>Persson</snm><fnm>B</fnm></au>
+    <au><snm>Lowe</snm><fnm>LP</fnm></au>
+    <au><snm>Dyer</snm><fnm>AR</fnm></au>
+    <au><snm>Cruickshank</snm><fnm>JK</fnm></au>
+    <au><snm>Deerochanawong</snm><fnm>C</fnm></au>
+    <au><snm>Halliday</snm><fnm>HL</fnm></au>
+    <au><snm>Hennis</snm><fnm>AJ</fnm></au>
+    <au><snm>Liley</snm><fnm>H</fnm></au>
+    <au><snm>Ng</snm><fnm>PC</fnm></au>
+    <au><snm>Coustan</snm><fnm>DR</fnm></au>
+    <au><snm>Hadden</snm><fnm>DR</fnm></au>
+    <au><snm>Hod</snm><fnm>M</fnm></au>
+    <au><snm>Oats</snm><fnm>JJ</fnm></au>
+    <au><snm>Trimble</snm><fnm>ER</fnm></au>
+  </aug>
+  <source>Pediatrics</source>
+  <pubdate>2010</pubdate>
+  <volume>126</volume>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Intrauterine exposure to diabetes conveys risks for type 2 diabetes
+  and obesity: A Study of Discordant Sibships</p></title>
+  <aug>
+    <au><snm>Dabelea</snm><fnm>D</fnm></au>
+    <au><snm>Hanson</snm><fnm>RL</fnm></au>
+    <au><snm>Lindsay</snm><fnm>RS</fnm></au>
+    <au><snm>Pettitt</snm><fnm>DJ</fnm></au>
+    <au><snm>Imperatore</snm><fnm>G</fnm></au>
+    <au><snm>Gabir</snm><fnm>MM</fnm></au>
+    <au><snm>Roumain</snm><fnm>J</fnm></au>
+    <au><snm>Bennett</snm><fnm>PH</fnm></au>
+    <au><snm>Knowler</snm><fnm>WC</fnm></au>
+  </aug>
+  <source>Diabetes</source>
+  <pubdate>2000</pubdate>
+  <volume>49</volume>
+</bibl>
+
+<bibl id="B18">
+  <title><p>The rs2237892 polymorphism in KCNQ1 influences gestational diabetes
+  mellitus and glucose levels: A case-control study and
+  meta-analysis</p></title>
+  <aug>
+    <au><snm>Ao</snm><fnm>D</fnm></au>
+    <au><snm>Wang</snm><fnm>HJ</fnm></au>
+    <au><snm>Wang</snm><fnm>LF</fnm></au>
+    <au><snm>Song</snm><fnm>JY</fnm></au>
+    <au><snm>Yang</snm><fnm>HX</fnm></au>
+    <au><snm>Wang</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>PLoS ONE</source>
+  <pubdate>2015</pubdate>
+  <volume>10</volume>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Transient neonatal diabetes mellitus in a very preterm infant due
+  to ABCC8 mutation</p></title>
+  <aug>
+    <au><snm>Piccini</snm><fnm>B</fnm></au>
+    <au><snm>Coviello</snm><fnm>C</fnm></au>
+    <au><snm>Drovandi</snm><fnm>L</fnm></au>
+    <au><snm>Rosangela</snm><fnm>A</fnm></au>
+    <au><snm>Monzali</snm><fnm>F</fnm></au>
+    <au><snm>Casalini</snm><fnm>E</fnm></au>
+    <au><snm>Giglio</snm><fnm>S</fnm></au>
+    <au><snm>Toni</snm><fnm>S</fnm></au>
+    <au><snm>Dani</snm><fnm>C</fnm></au>
+  </aug>
+  <source>AJP Reports</source>
+  <pubdate>2018</pubdate>
+  <volume>8</volume>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Association of Genetic Variants of KCNJ11 and KCNQ1 Genes with Risk
+  of Type 2 Diabetes Mellitus (T2DM) in the Indian Population: A Case-Control
+  Study</p></title>
+  <aug>
+    <au><snm>Khan</snm><fnm>V</fnm></au>
+    <au><snm>Verma</snm><fnm>AK</fnm></au>
+    <au><snm>Bhatt</snm><fnm>D</fnm></au>
+    <au><snm>Khan</snm><fnm>S</fnm></au>
+    <au><snm>Hasan</snm><fnm>R</fnm></au>
+    <au><snm>Goyal</snm><fnm>Y</fnm></au>
+    <au><snm>Ramachandran</snm><fnm>S</fnm></au>
+    <au><snm>Alsahli</snm><fnm>MA</fnm></au>
+    <au><snm>Rahmani</snm><fnm>AH</fnm></au>
+    <au><snm>Almatroudi</snm><fnm>A</fnm></au>
+    <au><snm>Shareef</snm><fnm>M. Y.</fnm></au>
+    <au><snm>Meena</snm><fnm>B</fnm></au>
+    <au><snm>Dev</snm><fnm>K</fnm></au>
+  </aug>
+  <source>International Journal of Endocrinology</source>
+  <pubdate>2020</pubdate>
+  <volume>2020</volume>
+</bibl>
+
+<bibl id="B21">
+  <title><p>Interactions among insulin resistance, inflammation factors,
+  obesity-related gene polymorphisms, environmental risk factors, and diet in
+  the development of gestational diabetes mellitus</p></title>
+  <aug>
+    <au><snm>Feng</snm><fnm>Y</fnm></au>
+    <au><snm>Jiang</snm><fnm>CD</fnm></au>
+    <au><snm>Chang</snm><fnm>AM</fnm></au>
+    <au><snm>Shi</snm><fnm>Y</fnm></au>
+    <au><snm>Gao</snm><fnm>J</fnm></au>
+    <au><snm>Zhu</snm><fnm>L</fnm></au>
+    <au><snm>Zhang</snm><fnm>Z</fnm></au>
+  </aug>
+  <source>Journal of Maternal-Fetal and Neonatal Medicine</source>
+  <pubdate>2019</pubdate>
+  <volume>32</volume>
+</bibl>
+
+<bibl id="B22">
+  <title><p>Association of the C825T polymorphism in the GNB3 gene with obesity
+  and metabolic phenotypes in a Taiwanese population</p></title>
+  <aug>
+    <au><snm>Hsiao</snm><fnm>TJ</fnm></au>
+    <au><snm>Hwang</snm><fnm>Y</fnm></au>
+    <au><snm>Liu</snm><fnm>CH</fnm></au>
+    <au><snm>Chang</snm><fnm>HM</fnm></au>
+    <au><snm>Lin</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Genes and Nutrition</source>
+  <pubdate>2013</pubdate>
+  <volume>8</volume>
+</bibl>
+
+<bibl id="B23">
+  <title><p>Pregnancy, insulin resistance and nitrogen accretion</p></title>
+  <aug>
+    <au><snm>Kalhan</snm><fnm>SC</fnm></au>
+    <au><snm>Devapatla</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Current Opinion in Clinical Nutrition and Metabolic Care</source>
+  <pubdate>1999</pubdate>
+  <volume>2</volume>
+</bibl>
+
+<bibl id="B24">
+  <title><p>Maternal β-Cell adaptations in pregnancy and placental signalling:
+  Implications for gestational diabetes</p></title>
+  <aug>
+    <au><snm>Moyce</snm><fnm>BL</fnm></au>
+    <au><snm>Dolinsky</snm><fnm>VW</fnm></au>
+  </aug>
+  <source>International Journal of Molecular Sciences</source>
+  <pubdate>2018</pubdate>
+  <volume>19</volume>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide
+  polymorphism in the risk prediction of type 2 diabetes mellitus</p></title>
+  <aug>
+    <au><snm>Rizvi</snm><fnm>S</fnm></au>
+    <au><snm>Raza</snm><fnm>ST</fnm></au>
+    <au><snm>Rahman</snm><fnm>Q</fnm></au>
+    <au><snm>Mahdi</snm><fnm>F</fnm></au>
+  </aug>
+  <source>3 Biotech</source>
+  <pubdate>2016</pubdate>
+  <volume>6</volume>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Leptin and nutrition in gestational diabetes</p></title>
+  <aug>
+    <au><snm>Pérez Pérez</snm><fnm>A</fnm></au>
+    <au><snm>Vilariño García</snm><fnm>T</fnm></au>
+    <au><snm>Guadix</snm><fnm>P</fnm></au>
+    <au><snm>Dueñas</snm><fnm>JL</fnm></au>
+    <au><snm>Sánchez Margalet</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Nutrients</source>
+  <pubdate>2020</pubdate>
+  <volume>12</volume>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Maternal circulating concentrations of tumor necrosis factor-alpha,
+  Leptin, and Adiponectin in gestational diabetes mellitus: A systematic review
+  and meta-analysis</p></title>
+  <aug>
+    <au><snm>Xu</snm><fnm>J</fnm></au>
+    <au><snm>Zhao</snm><fnm>YH</fnm></au>
+    <au><snm>Chen</snm><fnm>YP</fnm></au>
+    <au><snm>Yuan</snm><fnm>XL</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Zhu</snm><fnm>H</fnm></au>
+    <au><snm>Lu</snm><fnm>CM</fnm></au>
+  </aug>
+  <source>Scientific World Journal</source>
+  <pubdate>2014</pubdate>
+  <volume>2014</volume>
+</bibl>
+
+<bibl id="B28">
+  <title><p>Adipose tissue development and lipid metabolism in the human fetus:
+  The 2020 perspective focusing on maternal diabetes and obesity</p></title>
+  <aug>
+    <au><snm>Desoye</snm><fnm>G.</fnm></au>
+    <au><snm>Herrera</snm><fnm>E.</fnm></au>
+  </aug>
+  <source>Progress in Lipid Research</source>
+  <pubdate>2021</pubdate>
+  <volume>81</volume>
+</bibl>
+
+<bibl id="B29">
+  <title><p>Trying to understand gestational diabetes</p></title>
+  <aug>
+    <au><snm>Catalano</snm><fnm>P. M.</fnm></au>
+  </aug>
+  <source>Diabetic Medicine</source>
+  <pubdate>2014</pubdate>
+  <volume>31</volume>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
