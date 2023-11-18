@@ -3,7 +3,7 @@ import sys
 import json
 
 # Agregar al sys.path la ruta de la carpeta deps_Python
-sys.path.append(os.path.join(os.path.dirname(__file__), "../software/deps_Python"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../software/deps"))
 
 import pandas as pd
 import requests
