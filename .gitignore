@@ -3,3 +3,5 @@
 
 # Ignorar todos los archivos de texto
 *.Rhistory
+
+.venv

@@ -1,11 +1,6 @@
-import os
-import sys
-
-# Agregar al sys.path la ruta de la carpeta deps_Python
-sys.path.append(os.path.join(os.path.dirname(__file__), "../software/deps"))
-
 from igraph import Graph, plot
 import pandas as pd
+import os
 
 # Obtener la ruta absoluta del script actual
 path_script = os.path.dirname(os.path.abspath(__file__))

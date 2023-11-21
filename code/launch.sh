@@ -1,21 +1,22 @@
 #!/bin/bash
 
-# Se redirige la mayorías de las salidas estandar para dejar más limpia la consola
+echo "Creando el entorno virtual"
+python3 -m venv .venv
+source .venv/bin/activate
 
-echo "Descargando las dependencias necesarias"
+echo "Instalando las dependencias"
 
-# Descargamos las dependencias
 bash setup.sh 1> /dev/null
 
-echo "Obteniendo la red de interraccion a traves de StringDB"
+echo "Obtención de la red"
+python network_obtention.py
 
-# Obtenemos la red de interacción
-python3 network_obtention.py 1> /dev/null
+echo "Evaluación de la red"
+python network_evaluation.py
 
-echo "Procesando la red con igraph"
+echo "Enriquecimiento funcional"
+python functional_enrichment.py
 
-# Cargamos la red en R y devolvemos los genes de interes
-python3 network_evaluation.py 1> /dev/null
+deactivate
 
-# Hacemos el enriquecimiento funcional
-python3 functional_enrichment.py 1> /dev/null
+
