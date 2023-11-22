@@ -69,5 +69,4 @@ output = os.path.join(path_script, "../results/functional_enrichment.csv")
 
 # guardamos el DataFrame en un archivo csv
 df.to_csv(output, index=False)
-print(string_ids)
 
