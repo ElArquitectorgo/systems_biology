@@ -12,6 +12,7 @@ csv_path = os.path.join(path_script, '..', 'results', 'network.csv')
 data = pd.read_csv(csv_path)
 
 g = Graph.TupleList(data.itertuples(index=False),directed=False)
+g = g.simplify()
 
 
 # Guardar el grafo en formato SVG
