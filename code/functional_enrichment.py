@@ -18,7 +18,6 @@ file_path = os.path.join(path_script, "../results/interest_nodes.csv")
 
 # Cargar los nombres de los genes en una lista, excluyendo el encabezado
 with open(file_path, 'r') as file:
-    next(file)  # Saltar el encabezado
     gene_names = [line.strip() for line in file]
 
 # url para obtener los string ids de los genes de interes
@@ -70,4 +69,5 @@ output = os.path.join(path_script, "../results/functional_enrichment.csv")
 
 # guardamos el DataFrame en un archivo csv
 df.to_csv(output, index=False)
+print(string_ids)
 
