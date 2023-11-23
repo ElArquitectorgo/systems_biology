@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{29}
+\begin{thebibliography}{27}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -408,6 +408,18 @@ doi:\doiurl{10.1080/14767058.2018.1446207}
 \endbibitem
 
 %%% 22
+\bibitem{Neves2002}
+\begin{botherref}
+\oauthor{\bsnm{Neves}, \binits{S.R.}},
+\oauthor{\bsnm{Ram}, \binits{P.T.}},
+\oauthor{\bsnm{Iyengar}, \binits{R.}}:
+G protein pathways
+(2002).
+doi:\doiurl{10.1126/science.1071550}
+\end{botherref}
+\endbibitem
+
+%%% 23
 \bibitem{Hsiao2013}
 \begin{botherref}
 \oauthor{\bsnm{Hsiao}, \binits{T.J.}},
@@ -424,7 +436,17 @@ doi:\doiurl{10.1007/s12263-012-0304-8}
 \end{botherref}
 \endbibitem
 
-%%% 23
+%%% 24
+\bibitem{Siffert2005}
+\begin{botherref}
+\oauthor{\bsnm{Siffert}, \binits{W.}}:
+G protein polymorphisms in hypertension, atherosclerosis and diabetes
+(2005).
+doi:\doiurl{10.1146/annurev.med.56.082103.104625}
+\end{botherref}
+\endbibitem
+
+%%% 25
 \bibitem{Kalhan1999}
 \begin{botherref}
 \oauthor{\bsnm{Kalhan}, \binits{S.C.}},
@@ -435,19 +457,19 @@ doi:\doiurl{10.1097/00075197-199909000-00001}
 \end{botherref}
 \endbibitem
 
-%%% 24
+%%% 26
 \bibitem{Moyce2018}
 \begin{botherref}
 \oauthor{\bsnm{Moyce}, \binits{B.L.}},
 \oauthor{\bsnm{Dolinsky}, \binits{V.W.}}:
-Maternal β-Cell adaptations in pregnancy and placental signalling:
+Maternal beta-Cell adaptations in pregnancy and placental signalling:
   Implications for gestational diabetes
 (2018).
 doi:\doiurl{10.3390/ijms19113467}
 \end{botherref}
 \endbibitem
 
-%%% 25
+%%% 27
 \bibitem{Rizvi2016}
 \begin{botherref}
 \oauthor{\bsnm{Rizvi}, \binits{S.}},
@@ -458,64 +480,6 @@ Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide polymorphism
   in the risk prediction of type 2 diabetes mellitus
 (2016).
 doi:\doiurl{10.1007/s13205-016-0572-x}
-\end{botherref}
-\endbibitem
-
-%%% 26
-\bibitem{Perez2020}
-\begin{botherref}
-\oauthor{\bsnm{Pérez-Pérez}, \binits{A.}},
-\oauthor{\bsnm{Vilariño-García}, \binits{T.}},
-\oauthor{\bsnm{Guadix}, \binits{P.}},
-\oauthor{\bsnm{Dueñas}, \binits{J.L.}},
-\oauthor{\bsnm{Sánchez-Margalet}, \binits{V.}}:
-Leptin and nutrition in gestational diabetes.
-Nutrients
-\textbf{12}
-(2020).
-doi:\doiurl{10.3390/nu12071970}
-\end{botherref}
-\endbibitem
-
-%%% 27
-\bibitem{Xu2014}
-\begin{botherref}
-\oauthor{\bsnm{Xu}, \binits{J.}},
-\oauthor{\bsnm{Zhao}, \binits{Y.H.}},
-\oauthor{\bsnm{Chen}, \binits{Y.P.}},
-\oauthor{\bsnm{Yuan}, \binits{X.L.}},
-\oauthor{\bsnm{Wang}, \binits{J.}},
-\oauthor{\bsnm{Zhu}, \binits{H.}},
-\oauthor{\bsnm{Lu}, \binits{C.M.}}:
-Maternal circulating concentrations of tumor necrosis factor-alpha, leptin, and
-  adiponectin in gestational diabetes mellitus: A systematic review and
-  meta-analysis.
-Scientific World Journal
-\textbf{2014}
-(2014).
-doi:\doiurl{10.1155/2014/926932}
-\end{botherref}
-\endbibitem
-
-%%% 28
-\bibitem{Desoye2021}
-\begin{botherref}
-\oauthor{\bsnm{Desoye}, \binits{G.}},
-\oauthor{\bsnm{Herrera}, \binits{E.}}:
-Adipose tissue development and lipid metabolism in the human fetus: The 2020
-  perspective focusing on maternal diabetes and obesity
-(2021).
-doi:\doiurl{10.1016/j.plipres.2020.101082}
-\end{botherref}
-\endbibitem
-
-%%% 29
-\bibitem{Catalano2014}
-\begin{botherref}
-\oauthor{\bsnm{Catalano}, \binits{P.M.}}:
-Trying to understand gestational diabetes
-(2014).
-doi:\doiurl{10.1111/dme.12381}
 \end{botherref}
 \endbibitem
 
@@ -882,6 +846,18 @@ doi:\doiurl{10.1111/dme.12381}
 </bibl>
 
 <bibl id="B22">
+  <title><p>G protein pathways</p></title>
+  <aug>
+    <au><snm>Neves</snm><fnm>SR</fnm></au>
+    <au><snm>Ram</snm><fnm>PT</fnm></au>
+    <au><snm>Iyengar</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Science</source>
+  <pubdate>2002</pubdate>
+  <volume>296</volume>
+</bibl>
+
+<bibl id="B23">
   <title><p>Association of the C825T polymorphism in the GNB3 gene with obesity
   and metabolic phenotypes in a Taiwanese population</p></title>
   <aug>
@@ -896,7 +872,18 @@ doi:\doiurl{10.1111/dme.12381}
   <volume>8</volume>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B24">
+  <title><p>G protein polymorphisms in hypertension, atherosclerosis and
+  diabetes</p></title>
+  <aug>
+    <au><snm>Siffert</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Annual Review of Medicine</source>
+  <pubdate>2005</pubdate>
+  <volume>56</volume>
+</bibl>
+
+<bibl id="B25">
   <title><p>Pregnancy, insulin resistance and nitrogen accretion</p></title>
   <aug>
     <au><snm>Kalhan</snm><fnm>SC</fnm></au>
@@ -907,9 +894,9 @@ doi:\doiurl{10.1111/dme.12381}
   <volume>2</volume>
 </bibl>
 
-<bibl id="B24">
-  <title><p>Maternal β-Cell adaptations in pregnancy and placental signalling:
-  Implications for gestational diabetes</p></title>
+<bibl id="B26">
+  <title><p>Maternal beta-Cell adaptations in pregnancy and placental
+  signalling: Implications for gestational diabetes</p></title>
   <aug>
     <au><snm>Moyce</snm><fnm>BL</fnm></au>
     <au><snm>Dolinsky</snm><fnm>VW</fnm></au>
@@ -919,7 +906,7 @@ doi:\doiurl{10.1111/dme.12381}
   <volume>19</volume>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B27">
   <title><p>Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide
   polymorphism in the risk prediction of type 2 diabetes mellitus</p></title>
   <aug>
@@ -931,60 +918,6 @@ doi:\doiurl{10.1111/dme.12381}
   <source>3 Biotech</source>
   <pubdate>2016</pubdate>
   <volume>6</volume>
-</bibl>
-
-<bibl id="B26">
-  <title><p>Leptin and nutrition in gestational diabetes</p></title>
-  <aug>
-    <au><snm>Pérez Pérez</snm><fnm>A</fnm></au>
-    <au><snm>Vilariño García</snm><fnm>T</fnm></au>
-    <au><snm>Guadix</snm><fnm>P</fnm></au>
-    <au><snm>Dueñas</snm><fnm>JL</fnm></au>
-    <au><snm>Sánchez Margalet</snm><fnm>V</fnm></au>
-  </aug>
-  <source>Nutrients</source>
-  <pubdate>2020</pubdate>
-  <volume>12</volume>
-</bibl>
-
-<bibl id="B27">
-  <title><p>Maternal circulating concentrations of tumor necrosis factor-alpha,
-  Leptin, and Adiponectin in gestational diabetes mellitus: A systematic review
-  and meta-analysis</p></title>
-  <aug>
-    <au><snm>Xu</snm><fnm>J</fnm></au>
-    <au><snm>Zhao</snm><fnm>YH</fnm></au>
-    <au><snm>Chen</snm><fnm>YP</fnm></au>
-    <au><snm>Yuan</snm><fnm>XL</fnm></au>
-    <au><snm>Wang</snm><fnm>J</fnm></au>
-    <au><snm>Zhu</snm><fnm>H</fnm></au>
-    <au><snm>Lu</snm><fnm>CM</fnm></au>
-  </aug>
-  <source>Scientific World Journal</source>
-  <pubdate>2014</pubdate>
-  <volume>2014</volume>
-</bibl>
-
-<bibl id="B28">
-  <title><p>Adipose tissue development and lipid metabolism in the human fetus:
-  The 2020 perspective focusing on maternal diabetes and obesity</p></title>
-  <aug>
-    <au><snm>Desoye</snm><fnm>G.</fnm></au>
-    <au><snm>Herrera</snm><fnm>E.</fnm></au>
-  </aug>
-  <source>Progress in Lipid Research</source>
-  <pubdate>2021</pubdate>
-  <volume>81</volume>
-</bibl>
-
-<bibl id="B29">
-  <title><p>Trying to understand gestational diabetes</p></title>
-  <aug>
-    <au><snm>Catalano</snm><fnm>P. M.</fnm></au>
-  </aug>
-  <source>Diabetic Medicine</source>
-  <pubdate>2014</pubdate>
-  <volume>31</volume>
 </bibl>
 
 </refgrp>
