@@ -1,72 +1,30 @@
-import requests 
 import os
-import json
+import csv
 import pandas as pd
+import stringdb
 
-# Definicion de variables
-max_fdr = 0.01 # False Discovery Rate
-specie = 9606 # Homo Sapiens
-string_api_url = "https://version-11-5.string-db.org/api" # APIRest
-output_format = "json" 
-method = "enrichment" # haremos un enriquecimiento funcional
-get_ids = "get_string_ids" # metodo para obtener los id de stringdb
-
-# Obtener la ruta del directorio actual (donde está el script)
 path_script = os.path.dirname(os.path.realpath(__file__))
-gene_names = []
-file_path = os.path.join(path_script, "../results/interest_nodes.csv")
+csv_path = os.path.join(path_script, '..', 'results', 'interest_nodes.csv')
 
-# Cargar los nombres de los genes en una lista, excluyendo el encabezado
-with open(file_path, 'r') as file:
-    gene_names = [line.strip() for line in file]
+genes = []
+with open(csv_path, newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        genes.append(''.join(row))
 
-# url para obtener los string ids de los genes de interes
-ids_url = "/".join([string_api_url, output_format, get_ids])
-string_ids = []
-for gene in gene_names: 
-    params = {
-        "identifier": gene.strip(),
-        "species": specie
-                }
-    # enviamos la peticion
-    response = requests.get(ids_url, params=params)
-    data = response.json()
-    string_ids.append(data[0]['stringId'])
+new_network = stringdb.get_network(identifiers=genes, species = 9606, add_nodes=16)
 
-# creamos la url para el enriquecimiento funcional
-request_url = "/".join([string_api_url, output_format, method])
+ids = pd.concat([new_network['stringId_A'], new_network['stringId_B']])
+# Obtener los valores únicos
+unique_ids = ids.unique()
+enrichment_df = stringdb.get_enrichment(identifiers=unique_ids, species = 9606)
 
-# parametros para el enriquecimiento funcional
-params = {
-
-    "identifiers" : "%0d".join(string_ids), 
-    "species" : specie # identificador de la especie en NCBI
-}
-# enviamos la peticion
-response = requests.post(request_url, data=params)
-
-# cargamos los datos de la respuesta en formato JSON
-data = json.loads(response.text)
-
-# guardamos la informacion en un DataFrame
-df_rows = []
-
-for row in data:
-    term = row["term"]
-    preferred_names = ",".join(row["preferredNames"])
-    fdr = float(row["fdr"])
-    p_value = float(row["p_value"])
-    description = row["description"]
-    category = row["category"]
-    # filtramos por el fdr
-    if fdr < max_fdr:
-        df_rows.append([term, preferred_names, fdr, category, p_value, description])
-# creamos el DataFrame
-df = pd.DataFrame(df_rows, columns=["Term", "Preferred Names", "FDR", "Category", "p-value", "Description"])
+filtered_df = enrichment_df[enrichment_df['preferredNames'].str.contains('GNB3')]
+result = filtered_df[['preferredNames', 'description', 'p_value', 'fdr', 'category', 'term']]
 
 # construimos la ruta del archivo de salida
 output = os.path.join(path_script, "../results/functional_enrichment.csv")
 
 # guardamos el DataFrame en un archivo csv
-df.to_csv(output, index=False)
+result.to_csv(output, index=False)
 
