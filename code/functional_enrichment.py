@@ -1,10 +1,11 @@
 import os
+import sys
 import csv
 import pandas as pd
 import stringdb
 
 path_script = os.path.dirname(os.path.realpath(__file__))
-csv_path = os.path.join(path_script, '..', 'results', 'interest_nodes.csv')
+csv_path = os.path.join(path_script, '..', 'results', sys.argv[1])
 
 genes = []
 with open(csv_path, newline='') as csvfile:
@@ -23,8 +24,7 @@ filtered_df = enrichment_df[enrichment_df['preferredNames'].str.contains('GNB3')
 result = filtered_df[['preferredNames', 'description', 'p_value', 'fdr', 'category', 'term']]
 
 # construimos la ruta del archivo de salida
-output = os.path.join(path_script, "../results/functional_enrichment.csv")
+output = os.path.join(path_script, f"../results/{sys.argv[2]}")
 
 # guardamos el DataFrame en un archivo csv
 result.to_csv(output, index=False)
-
