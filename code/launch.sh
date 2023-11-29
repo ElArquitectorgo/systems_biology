@@ -15,7 +15,7 @@ echo "Evaluación de la red"
 python network_evaluation.py
 
 echo "Enriquecimiento funcional"
-python functional_enrichment.py
+python functional_enrichment.py interest_nodes.csv functional_enrichment.csv
 
 deactivate
 
