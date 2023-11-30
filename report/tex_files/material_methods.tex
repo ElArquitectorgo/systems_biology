@@ -1,6 +1,19 @@
 \section{Materiales y métodos}
 
 \subsection{Materiales}
+Se utilizaron datos biológicos relacionados con el fenotipo "Maternal diabetes" (HP:0009800), los cuales fueron extraídos de la base de datos Human Phenotype Ontology (HPO) en la web hpo.jax\cite{Kohler2017}. Específicamente, se trabajó con una lista de 43 genes asociados al fenotipo, la cual se encontraba en formato Excel. Asimismo, se incorporó el identificador de nuestro gen (GNB3) en este contexto.
+
+Para el análisis bioinformático, se utilizaron diversas herramientas y software, entre los que destacan:
+
+\begin{itemize}
+	\item La API de StringDB\cite{Szklarczyk2015} como la herramienta principal.
+	\item Python, con las librerías openpyxl 3.1.2, Stringdb 0.1.5\cite{Mering2005}, Pandas 2.1.2\cite{McKinney2015}, iGraph 0.11.2\cite{Csardi2006}, Cairocffi 1.6.1, para el procesamiento de datos y las representaciones.
+	\item El algoritmo de detección de comunidades "community edge betweenness"~\cite{Girvan2002} implementado en iGraph.
+\end{itemize}
+
+La configuración e instalación necesarias se llevaron a cabo mediante scripts en Bash\cite{Dong2023}.
+
+Los análisis se llevaron a cabo en un entorno computacional que consistía en sistemas con [HARDWARE] y utilizando el sistema operativo Ubuntu 23.
 
 \subsection{Metodología}
 
