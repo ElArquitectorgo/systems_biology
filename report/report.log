@@ -1,17 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.17)  23 NOV 2023 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.15)  30 NOV 2023 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./report.tex
 (report.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
-(bmcart.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02> (bmcart.cls
 Document Class: bmcart 2017/07/31BioMed Central class (VS)
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -27,23 +26,23 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \mathindent=\dimen141
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks16
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
 f
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
@@ -55,15 +54,15 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/10/06 v2.0d lastpage: 2.09 or 2e? (HMM)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.st
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.st
 y
 Package: lastpage2e 2023/10/06 v2.0d Decide which 2e lastpage version to use (H
 MM)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemoder
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemoder
 n.sty
 Package: lastpagemodern 2023-10-06 v2.0d Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count193
@@ -78,37 +77,37 @@ Package: lastpagemodern 2023-10-06 v2.0d Refers to last page's name (HMM; JPG)
 \c@addressref=\count197
 \thanks@box=\box53
 \abstract@box=\box54
-\authors@list=\toks18
-\keywords@list=\toks19
-) (C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+\authors@list=\toks17
+\keywords@list=\toks18
+) (C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
 \thm@preskip=\skip50
 \thm@postskip=\skip51
 \thm@headsep=\skip52
-\dth@everypar=\toks25
-) (C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
+\dth@everypar=\toks24
+) (C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
+\@emptytoks=\toks25
 \ex@=\dimen143
 ))
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen144
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count198
@@ -141,34 +140,34 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count271
 \dspbrk@lvl=\count272
-\tag@help=\toks27
+\tag@help=\toks26
 \row@=\count273
 \column@=\count274
 \maxfields@=\count275
-\andhelp@=\toks28
+\andhelp@=\toks27
 \eqnshift@=\dimen146
 \alignsep@=\dimen147
 \tagshift@=\dimen148
 \tagwidth@=\dimen149
 \totwidth@=\dimen150
 \lineht@=\dimen151
-\@envbody=\toks29
+\@envbody=\toks28
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks30
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
 cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
@@ -177,14 +176,14 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen152
 \Gin@req@width=\dimen153
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks31
-\inpenc@posthook=\toks32
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box57
 ) (report.aux)
@@ -205,7 +204,7 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
@@ -213,44 +212,44 @@ kii
 \scratchbox=\box58
 \nofMPsegments=\count278
 \nofMParguments=\count279
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count280
 \MPscratchDim=\dimen155
 \MPnumerator=\count281
 \makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks33
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
 sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
 ekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
 y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
 y
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
 s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -264,7 +263,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\Juanca\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+(C:\Users\P_A_BG\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -289,14 +288,31 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 47.
 
-\address@aff1=\toks35
+\address@aff1=\toks34
 (tex_files/introduction.tex
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 11.
- [1{C:/Users/Juanca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 10.
+ [1{C:/Users/P_A_BG/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-]) (tex_files/material_methods.tex) (tex_files/resultados.tex) (tex_files/discu
-sion.tex) (tex_files/conclusiones.tex) (report.bbl
+]
+
+LaTeX Warning: Citation `ortega' on page 2 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ortega' on page 2 undefined on input line 13.
+
+) (tex_files/material_methods.tex
+<figures/workflow.png, id=11, 963.6pt x 722.7pt>
+File: figures/workflow.png Graphic file (type png)
+<use figures/workflow.png>
+Package pdftex.def Info: figures/workflow.png  used on input line 10.
+(pdftex.def)             Requested size: 324.8978pt x 243.66364pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (tex_files/resultados.tex) (tex_files/discusion.tex)
+(tex_files/conclusiones.tex) [2] (report.bbl
 ! Misplaced alignment tab character &.
 l.143   systematic review &
                             meta-analysis.
@@ -348,39 +364,40 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[2]) [3] 
+[3 <./figures/workflow.png>]) [4]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
- ***********
-
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 3957 strings out of 475247
- 63039 string characters out of 5757319
- 1930785 words of memory out of 5000000
- 25422 multiletter control sequences out of 15000+600000
- 564385 words of font info for 58 fonts, out of 8000000 for 9000
+ 4018 strings out of 476374
+ 65841 string characters out of 5788382
+ 1861340 words of memory out of 5000000
+ 24343 multiletter control sequences out of 15000+600000
+ 519205 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,79p,942b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr5.pfb><C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Juanca/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/Juanca/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Juanca/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/J
-uanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on report.pdf (3 pages, 121209 bytes).
+ 72i,9n,76p,942b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/P_A_BG/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Users/P_A_BG/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Users/P_A_BG/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr5.pfb><C:/Users/P_A_BG/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/P_A_BG/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/P_A_BG/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/P_A_BG/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/P_A
+_BG/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+C:/Users/P_A_BG/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ssi8.pfb>
+Output written on report.pdf (4 pages, 243056 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
