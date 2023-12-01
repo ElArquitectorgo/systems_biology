@@ -12,11 +12,9 @@ echo "Obtención de la red"
 python network_obtention.py
 
 echo "Evaluación de la red"
-python network_evaluation.py
+python network_evaluation.py _
 
 echo "Enriquecimiento funcional"
 python functional_enrichment.py interest_nodes.csv first_functional_enrichment.csv second_functional_enrichment.csv
 
 deactivate
-
-

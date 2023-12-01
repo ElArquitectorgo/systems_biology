@@ -1,4 +1,5 @@
 from igraph import Graph, plot
+import sys
 import pandas as pd
 import os
 
@@ -17,7 +18,7 @@ g = g.simplify()
 colors = ["lightgreen" if name == "GNB3" else "#FF6961" for name in g.vs["name"]]
 
 # Guardar el grafo en formato SVG
-plot(g, os.path.join(path_script, '..', 'results', 'network.svg'), vertex_label=g.vs["name"], vertex_label_size=10, vertex_label_color="black",
+plot(g, os.path.join(path_script, '..', 'results', 'network'+sys.argv[1]+'.svg'), vertex_label=g.vs["name"], vertex_label_size=10, vertex_label_color="black",
      vertex_size=12, vertex_label_dist=2, edge_color="darkgray", vertex_color=colors)
 
 # Calcular las comunidades mediante el método "cluster_edge_betweenness"
@@ -25,7 +26,7 @@ ceb = g.community_edge_betweenness()
 cl = ceb.as_clustering()
 
 # Guardar el grafo de comunidades en formato SVG
-plot(cl, os.path.join(path_script, '..', 'results', 'comunidades.svg'), mark_groups=True, vertex_label=g.vs["name"], vertex_label_size=10, vertex_label_color="black",
+plot(cl, os.path.join(path_script, '..', 'results', 'comunidades'+sys.argv[1]+'.svg'), mark_groups=True, vertex_label=g.vs["name"], vertex_label_size=10, vertex_label_color="black",
      vertex_size=12, vertex_label_dist=2, edge_color="darkgray", vertex_color="#FF6961")
 
 # Obtener los nodos en la misma comunidad que nuestro nodo de interés
