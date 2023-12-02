@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{27}
+\begin{thebibliography}{33}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -133,18 +133,20 @@ doi:\doiurl{10.1136/bmj.m1361}
 
 %%% 7
 \bibitem{You2021}
-\begin{botherref}
-\oauthor{\bsnm{You}, \binits{H.}},
-\oauthor{\bsnm{Hu}, \binits{J.}},
-\oauthor{\bsnm{Liu}, \binits{Y.}},
-\oauthor{\bsnm{Luo}, \binits{B.}},
-\oauthor{\bsnm{Lei}, \binits{A.}}:
-Risk of type 2 diabetes mellitus after gestational diabetes mellitus: A
-  systematic review & meta-analysis.
-Indian Council of Medical Research
-(2021).
+\begin{barticle}
+\bauthor{\bsnm{You}, \binits{H.}},
+\bauthor{\bsnm{Hu}, \binits{J.}},
+\bauthor{\bsnm{Liu}, \binits{Y.}},
+\bauthor{\bsnm{Luo}, \binits{B.}},
+\bauthor{\bsnm{Lei}, \binits{A.}}:
+\batitle{Risk of type 2 diabetes mellitus after gestational diabetes mellitus:
+  A systematic review & meta-analysis}.
+\bjtitle{Indian Journal of Medical Research, Supplement}
+\bvolume{154},
+\bfpage{62}--\blpage{77}
+(\byear{2021}).
 doi:\doiurl{10.4103/ijmr.IJMR_852_18}
-\end{botherref}
+\end{barticle}
 \endbibitem
 
 %%% 8
@@ -447,29 +449,6 @@ doi:\doiurl{10.1146/annurev.med.56.082103.104625}
 \endbibitem
 
 %%% 25
-\bibitem{Kalhan1999}
-\begin{botherref}
-\oauthor{\bsnm{Kalhan}, \binits{S.C.}},
-\oauthor{\bsnm{Devapatla}, \binits{S.}}:
-Pregnancy, insulin resistance and nitrogen accretion
-(1999).
-doi:\doiurl{10.1097/00075197-199909000-00001}
-\end{botherref}
-\endbibitem
-
-%%% 26
-\bibitem{Moyce2018}
-\begin{botherref}
-\oauthor{\bsnm{Moyce}, \binits{B.L.}},
-\oauthor{\bsnm{Dolinsky}, \binits{V.W.}}:
-Maternal beta-Cell adaptations in pregnancy and placental signalling:
-  Implications for gestational diabetes
-(2018).
-doi:\doiurl{10.3390/ijms19113467}
-\end{botherref}
-\endbibitem
-
-%%% 27
 \bibitem{Rizvi2016}
 \begin{botherref}
 \oauthor{\bsnm{Rizvi}, \binits{S.}},
@@ -480,6 +459,197 @@ Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide polymorphism
   in the risk prediction of type 2 diabetes mellitus
 (2016).
 doi:\doiurl{10.1007/s13205-016-0572-x}
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem{ortega}
+\begin{botherref}
+\oauthor{\bsnm{Ortega-Contreras}, \binits{B.}},
+\oauthor{\bsnm{Armella}, \binits{A.}},
+\oauthor{\bsnm{Appel}, \binits{J.}},
+\oauthor{\bsnm{Mennickent}, \binits{D.}},
+\oauthor{\bsnm{Araya}, \binits{J.}},
+\oauthor{\bsnm{González}, \binits{M.}},
+\oauthor{\bsnm{Castro}, \binits{E.}},
+\oauthor{\bsnm{Obregón}, \binits{A.M.}},
+\oauthor{\bsnm{Lamperti}, \binits{L.}},
+\oauthor{\bsnm{Gutiérrez}, \binits{J.}},
+\oauthor{\bsnm{Guzmán-Gutiérrez}, \binits{E.}}:
+Pathophysiological Role of Genetic Factors Associated With Gestational Diabetes
+  Mellitus
+(2022).
+doi:\doiurl{10.3389/fphys.2022.769924}
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem{Kohler2017}
+\begin{botherref}
+\oauthor{\bsnm{Kohler}, \binits{S.}},
+\oauthor{\bsnm{Vasilevsky}, \binits{N.A.}},
+\oauthor{\bsnm{Engelstad}, \binits{M.}},
+\oauthor{\bsnm{Foster}, \binits{E.}},
+\oauthor{\bsnm{McMurry}, \binits{J.}},
+\oauthor{\bsnm{Aymé}, \binits{S.}},
+\oauthor{\bsnm{Baynam}, \binits{G.}},
+\oauthor{\bsnm{Bello}, \binits{S.M.}},
+\oauthor{\bsnm{Boerkoel}, \binits{C.F.}},
+\oauthor{\bsnm{Boycott}, \binits{K.M.}},
+\oauthor{\bsnm{Brudno}, \binits{M.}},
+\oauthor{\bsnm{Buske}, \binits{O.J.}},
+\oauthor{\bsnm{Chinnery}, \binits{P.F.}},
+\oauthor{\bsnm{Cipriani}, \binits{V.}},
+\oauthor{\bsnm{Connell}, \binits{L.E.}},
+\oauthor{\bsnm{Dawkins}, \binits{H.J.S.}},
+\oauthor{\bsnm{DeMare}, \binits{L.E.}},
+\oauthor{\bsnm{Devereau}, \binits{A.D.}},
+\oauthor{\bsnm{Vries}, \binits{B.B.A.D.}},
+\oauthor{\bsnm{Firth}, \binits{H.V.}},
+\oauthor{\bsnm{Freson}, \binits{K.}},
+\oauthor{\bsnm{Greene}, \binits{D.}},
+\oauthor{\bsnm{Hamosh}, \binits{A.}},
+\oauthor{\bsnm{Helbig}, \binits{I.}},
+\oauthor{\bsnm{Hum}, \binits{C.}},
+\oauthor{\bsnm{Jähn}, \binits{J.A.}},
+\oauthor{\bsnm{James}, \binits{R.}},
+\oauthor{\bsnm{Krause}, \binits{R.}},
+\oauthor{\bsnm{Laulederkind}, \binits{S.J.F.}},
+\oauthor{\bsnm{Lochmüller}, \binits{H.}},
+\oauthor{\bsnm{Lyon}, \binits{G.J.}},
+\oauthor{\bsnm{Ogishima}, \binits{S.}},
+\oauthor{\bsnm{Olry}, \binits{A.}},
+\oauthor{\bsnm{Ouwehand}, \binits{W.H.}},
+\oauthor{\bsnm{Pontikos}, \binits{N.}},
+\oauthor{\bsnm{Rath}, \binits{A.}},
+\oauthor{\bsnm{Schaefer}, \binits{F.}},
+\oauthor{\bsnm{Scott}, \binits{R.H.}},
+\oauthor{\bsnm{Segal}, \binits{M.}},
+\oauthor{\bsnm{Sergouniotis}, \binits{P.I.}},
+\oauthor{\bsnm{Sever}, \binits{R.}},
+\oauthor{\bsnm{Smith}, \binits{C.L.}},
+\oauthor{\bsnm{Straub}, \binits{V.}},
+\oauthor{\bsnm{Thompson}, \binits{R.}},
+\oauthor{\bsnm{Turner}, \binits{C.}},
+\oauthor{\bsnm{Turro}, \binits{E.}},
+\oauthor{\bsnm{Veltman}, \binits{M.W.M.}},
+\oauthor{\bsnm{Vulliamy}, \binits{T.}},
+\oauthor{\bsnm{Yu}, \binits{J.}},
+\oauthor{\bsnm{Ziegenweidt}, \binits{J.V.}},
+\oauthor{\bsnm{Zankl}, \binits{A.}},
+\oauthor{\bsnm{Züchner}, \binits{S.}},
+\oauthor{\bsnm{Zemojtel}, \binits{T.}},
+\oauthor{\bsnm{Jacobsen}, \binits{J.O.B.}},
+\oauthor{\bsnm{Groza}, \binits{T.}},
+\oauthor{\bsnm{Smedley}, \binits{D.}},
+\oauthor{\bsnm{Mungall}, \binits{C.J.}},
+\oauthor{\bsnm{Haendel}, \binits{M.}},
+\oauthor{\bsnm{Robinson}, \binits{P.N.}}:
+The human phenotype ontology in 2017.
+Nucleic Acids Research
+\textbf{45}
+(2017).
+doi:\doiurl{10.1093/nar/gkw1039}
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem{Szklarczyk2015}
+\begin{botherref}
+\oauthor{\bsnm{Szklarczyk}, \binits{D.}},
+\oauthor{\bsnm{Franceschini}, \binits{A.}},
+\oauthor{\bsnm{Wyder}, \binits{S.}},
+\oauthor{\bsnm{Forslund}, \binits{K.}},
+\oauthor{\bsnm{Heller}, \binits{D.}},
+\oauthor{\bsnm{Huerta-Cepas}, \binits{J.}},
+\oauthor{\bsnm{Simonovic}, \binits{M.}},
+\oauthor{\bsnm{Roth}, \binits{A.}},
+\oauthor{\bsnm{Santos}, \binits{A.}},
+\oauthor{\bsnm{Tsafou}, \binits{K.P.}},
+\oauthor{\bsnm{Kuhn}, \binits{M.}},
+\oauthor{\bsnm{Bork}, \binits{P.}},
+\oauthor{\bsnm{Jensen}, \binits{L.J.}},
+\oauthor{\bsnm{Mering}, \binits{C.V.}}:
+String v10: Protein-protein interaction networks, integrated over the tree of
+  life.
+Nucleic Acids Research
+\textbf{43}
+(2015).
+doi:\doiurl{10.1093/nar/gku1003}
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem{Mering2005}
+\begin{botherref}
+\oauthor{\bparticle{von} \bsnm{Mering}, \binits{C.}},
+\oauthor{\bsnm{Jensen}, \binits{L.J.}},
+\oauthor{\bsnm{Snel}, \binits{B.}},
+\oauthor{\bsnm{Hooper}, \binits{S.D.}},
+\oauthor{\bsnm{Krupp}, \binits{M.}},
+\oauthor{\bsnm{Foglierini}, \binits{M.}},
+\oauthor{\bsnm{Jouffre}, \binits{N.}},
+\oauthor{\bsnm{Huynen}, \binits{M.A.}},
+\oauthor{\bsnm{Bork}, \binits{P.}}:
+String: Known and predicted protein-protein associations, integrated and
+  transferred across organisms.
+Nucleic Acids Research
+\textbf{33}
+(2005).
+doi:\doiurl{10.1093/nar/gki005}
+\end{botherref}
+\endbibitem
+
+%%% 30
+\bibitem{McKinney2015}
+\begin{botherref}
+\oauthor{\bsnm{McKinney}, \binits{W.}},
+\oauthor{\bsnm{Team}, \binits{P.D.}}:
+Pandas - powerful python data analysis toolkit.
+Pandas - Powerful Python Data Analysis Toolkit
+(2015)
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem{Csardi2006}
+\begin{botherref}
+\oauthor{\bsnm{Csardi}, \binits{G.}},
+\oauthor{\bsnm{Nepusz}, \binits{T.}}:
+The igraph software package for complex network research.
+InterJournal Complex Systems
+\textbf{Complex Sy}
+(2006)
+\end{botherref}
+\endbibitem
+
+%%% 32
+\bibitem{Girvan2002}
+\begin{botherref}
+\oauthor{\bsnm{Girvan}, \binits{M.}},
+\oauthor{\bsnm{Newman}, \binits{M.E.J.}}:
+Community structure in social and biological networks.
+Proceedings of the National Academy of Sciences of the United States of America
+\textbf{99}
+(2002).
+doi:\doiurl{10.1073/pnas.122653799}
+\end{botherref}
+\endbibitem
+
+%%% 33
+\bibitem{Dong2023}
+\begin{botherref}
+\oauthor{\bsnm{Dong}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Tian}, \binits{Y.}},
+\oauthor{\bsnm{Sun}, \binits{C.}},
+\oauthor{\bsnm{Godfrey}, \binits{M.W.}},
+\oauthor{\bsnm{Nagappan}, \binits{M.}}:
+Bash in the wild: Language usage, code smells, and bugs.
+ACM Transactions on Software Engineering and Methodology
+\textbf{32}
+(2023).
+doi:\doiurl{10.1145/3517193}
 \end{botherref}
 \endbibitem
 
@@ -884,29 +1054,6 @@ doi:\doiurl{10.1007/s13205-016-0572-x}
 </bibl>
 
 <bibl id="B25">
-  <title><p>Pregnancy, insulin resistance and nitrogen accretion</p></title>
-  <aug>
-    <au><snm>Kalhan</snm><fnm>SC</fnm></au>
-    <au><snm>Devapatla</snm><fnm>S</fnm></au>
-  </aug>
-  <source>Current Opinion in Clinical Nutrition and Metabolic Care</source>
-  <pubdate>1999</pubdate>
-  <volume>2</volume>
-</bibl>
-
-<bibl id="B26">
-  <title><p>Maternal beta-Cell adaptations in pregnancy and placental
-  signalling: Implications for gestational diabetes</p></title>
-  <aug>
-    <au><snm>Moyce</snm><fnm>BL</fnm></au>
-    <au><snm>Dolinsky</snm><fnm>VW</fnm></au>
-  </aug>
-  <source>International Journal of Molecular Sciences</source>
-  <pubdate>2018</pubdate>
-  <volume>19</volume>
-</bibl>
-
-<bibl id="B27">
   <title><p>Role of GNB3, NET, KCNJ11, TCF7L2 and GRL genes single nucleotide
   polymorphism in the risk prediction of type 2 diabetes mellitus</p></title>
   <aug>
@@ -918,6 +1065,187 @@ doi:\doiurl{10.1007/s13205-016-0572-x}
   <source>3 Biotech</source>
   <pubdate>2016</pubdate>
   <volume>6</volume>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Pathophysiological Role of Genetic Factors Associated With
+  Gestational Diabetes Mellitus</p></title>
+  <aug>
+    <au><snm>Ortega Contreras</snm><fnm>B.</fnm></au>
+    <au><snm>Armella</snm><fnm>A.</fnm></au>
+    <au><snm>Appel</snm><fnm>J.</fnm></au>
+    <au><snm>Mennickent</snm><fnm>D.</fnm></au>
+    <au><snm>Araya</snm><fnm>J.</fnm></au>
+    <au><snm>González</snm><fnm>M.</fnm></au>
+    <au><snm>Castro</snm><fnm>E.</fnm></au>
+    <au><snm>Obregón</snm><fnm>A. M.</fnm></au>
+    <au><snm>Lamperti</snm><fnm>L.</fnm></au>
+    <au><snm>Gutiérrez</snm><fnm>J.</fnm></au>
+    <au><snm>Guzmán Gutiérrez</snm><fnm>E.</fnm></au>
+  </aug>
+  <source>Frontiers in Physiology</source>
+  <pubdate>2022</pubdate>
+  <volume>13</volume>
+</bibl>
+
+<bibl id="B27">
+  <title><p>The human phenotype ontology in 2017</p></title>
+  <aug>
+    <au><snm>Kohler</snm><fnm>S</fnm></au>
+    <au><snm>Vasilevsky</snm><fnm>NA</fnm></au>
+    <au><snm>Engelstad</snm><fnm>M</fnm></au>
+    <au><snm>Foster</snm><fnm>E</fnm></au>
+    <au><snm>McMurry</snm><fnm>J</fnm></au>
+    <au><snm>Aymé</snm><fnm>S</fnm></au>
+    <au><snm>Baynam</snm><fnm>G</fnm></au>
+    <au><snm>Bello</snm><fnm>SM</fnm></au>
+    <au><snm>Boerkoel</snm><fnm>CF</fnm></au>
+    <au><snm>Boycott</snm><fnm>KM</fnm></au>
+    <au><snm>Brudno</snm><fnm>M</fnm></au>
+    <au><snm>Buske</snm><fnm>OJ</fnm></au>
+    <au><snm>Chinnery</snm><fnm>PF</fnm></au>
+    <au><snm>Cipriani</snm><fnm>V</fnm></au>
+    <au><snm>Connell</snm><fnm>LE</fnm></au>
+    <au><snm>Dawkins</snm><fnm>HJ</fnm></au>
+    <au><snm>DeMare</snm><fnm>LE</fnm></au>
+    <au><snm>Devereau</snm><fnm>AD</fnm></au>
+    <au><snm>Vries</snm><fnm>BBD</fnm></au>
+    <au><snm>Firth</snm><fnm>HV</fnm></au>
+    <au><snm>Freson</snm><fnm>K</fnm></au>
+    <au><snm>Greene</snm><fnm>D</fnm></au>
+    <au><snm>Hamosh</snm><fnm>A</fnm></au>
+    <au><snm>Helbig</snm><fnm>I</fnm></au>
+    <au><snm>Hum</snm><fnm>C</fnm></au>
+    <au><snm>Jähn</snm><fnm>JA</fnm></au>
+    <au><snm>James</snm><fnm>R</fnm></au>
+    <au><snm>Krause</snm><fnm>R</fnm></au>
+    <au><snm>Laulederkind</snm><fnm>SJ</fnm></au>
+    <au><snm>Lochmüller</snm><fnm>H</fnm></au>
+    <au><snm>Lyon</snm><fnm>GJ</fnm></au>
+    <au><snm>Ogishima</snm><fnm>S</fnm></au>
+    <au><snm>Olry</snm><fnm>A</fnm></au>
+    <au><snm>Ouwehand</snm><fnm>WH</fnm></au>
+    <au><snm>Pontikos</snm><fnm>N</fnm></au>
+    <au><snm>Rath</snm><fnm>A</fnm></au>
+    <au><snm>Schaefer</snm><fnm>F</fnm></au>
+    <au><snm>Scott</snm><fnm>RH</fnm></au>
+    <au><snm>Segal</snm><fnm>M</fnm></au>
+    <au><snm>Sergouniotis</snm><fnm>PI</fnm></au>
+    <au><snm>Sever</snm><fnm>R</fnm></au>
+    <au><snm>Smith</snm><fnm>CL</fnm></au>
+    <au><snm>Straub</snm><fnm>V</fnm></au>
+    <au><snm>Thompson</snm><fnm>R</fnm></au>
+    <au><snm>Turner</snm><fnm>C</fnm></au>
+    <au><snm>Turro</snm><fnm>E</fnm></au>
+    <au><snm>Veltman</snm><fnm>MW</fnm></au>
+    <au><snm>Vulliamy</snm><fnm>T</fnm></au>
+    <au><snm>Yu</snm><fnm>J</fnm></au>
+    <au><snm>Ziegenweidt</snm><fnm>JV</fnm></au>
+    <au><snm>Zankl</snm><fnm>A</fnm></au>
+    <au><snm>Züchner</snm><fnm>S</fnm></au>
+    <au><snm>Zemojtel</snm><fnm>T</fnm></au>
+    <au><snm>Jacobsen</snm><fnm>JO</fnm></au>
+    <au><snm>Groza</snm><fnm>T</fnm></au>
+    <au><snm>Smedley</snm><fnm>D</fnm></au>
+    <au><snm>Mungall</snm><fnm>CJ</fnm></au>
+    <au><snm>Haendel</snm><fnm>M</fnm></au>
+    <au><snm>Robinson</snm><fnm>PN</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2017</pubdate>
+  <volume>45</volume>
+</bibl>
+
+<bibl id="B28">
+  <title><p>STRING v10: Protein-protein interaction networks, integrated over
+  the tree of life</p></title>
+  <aug>
+    <au><snm>Szklarczyk</snm><fnm>D</fnm></au>
+    <au><snm>Franceschini</snm><fnm>A</fnm></au>
+    <au><snm>Wyder</snm><fnm>S</fnm></au>
+    <au><snm>Forslund</snm><fnm>K</fnm></au>
+    <au><snm>Heller</snm><fnm>D</fnm></au>
+    <au><snm>Huerta Cepas</snm><fnm>J</fnm></au>
+    <au><snm>Simonovic</snm><fnm>M</fnm></au>
+    <au><snm>Roth</snm><fnm>A</fnm></au>
+    <au><snm>Santos</snm><fnm>A</fnm></au>
+    <au><snm>Tsafou</snm><fnm>KP</fnm></au>
+    <au><snm>Kuhn</snm><fnm>M</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Jensen</snm><fnm>LJ</fnm></au>
+    <au><snm>Mering</snm><fnm>CV</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2015</pubdate>
+  <volume>43</volume>
+</bibl>
+
+<bibl id="B29">
+  <title><p>STRING: Known and predicted protein-protein associations,
+  integrated and transferred across organisms</p></title>
+  <aug>
+    <au><snm>Mering</snm><fnm>C</fnm></au>
+    <au><snm>Jensen</snm><fnm>LJ</fnm></au>
+    <au><snm>Snel</snm><fnm>B</fnm></au>
+    <au><snm>Hooper</snm><fnm>SD</fnm></au>
+    <au><snm>Krupp</snm><fnm>M</fnm></au>
+    <au><snm>Foglierini</snm><fnm>M</fnm></au>
+    <au><snm>Jouffre</snm><fnm>N</fnm></au>
+    <au><snm>Huynen</snm><fnm>MA</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2005</pubdate>
+  <volume>33</volume>
+</bibl>
+
+<bibl id="B30">
+  <title><p>Pandas - Powerful Python Data Analysis Toolkit</p></title>
+  <aug>
+    <au><snm>McKinney</snm><fnm>W</fnm></au>
+    <au><snm>Team</snm><fnm>PD</fnm></au>
+  </aug>
+  <source>Pandas - Powerful Python Data Analysis Toolkit</source>
+  <pubdate>2015</pubdate>
+</bibl>
+
+<bibl id="B31">
+  <title><p>The igraph software package for complex network
+  research</p></title>
+  <aug>
+    <au><snm>Csardi</snm><fnm>G</fnm></au>
+    <au><snm>Nepusz</snm><fnm>T</fnm></au>
+  </aug>
+  <source>InterJournal Complex Systems</source>
+  <pubdate>2006</pubdate>
+  <volume>Complex Sy</volume>
+</bibl>
+
+<bibl id="B32">
+  <title><p>Community structure in social and biological networks</p></title>
+  <aug>
+    <au><snm>Girvan</snm><fnm>M.</fnm></au>
+    <au><snm>Newman</snm><fnm>M. E.J.</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences of the United States
+  of America</source>
+  <pubdate>2002</pubdate>
+  <volume>99</volume>
+</bibl>
+
+<bibl id="B33">
+  <title><p>Bash in the Wild: Language Usage, Code Smells, and Bugs</p></title>
+  <aug>
+    <au><snm>Dong</snm><fnm>Y</fnm></au>
+    <au><snm>Li</snm><fnm>Z</fnm></au>
+    <au><snm>Tian</snm><fnm>Y</fnm></au>
+    <au><snm>Sun</snm><fnm>C</fnm></au>
+    <au><snm>Godfrey</snm><fnm>MW</fnm></au>
+    <au><snm>Nagappan</snm><fnm>M</fnm></au>
+  </aug>
+  <source>ACM Transactions on Software Engineering and Methodology</source>
+  <pubdate>2023</pubdate>
+  <volume>32</volume>
 </bibl>
 
 </refgrp>
