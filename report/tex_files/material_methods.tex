@@ -21,12 +21,12 @@ EL flujo de trabajo que se siguió puede observarse en la figura \ref{fig:workfl
 	\label{fig:workflow}
 \end{figure}
 
-Descargamos la lista de genes implicados al fenotipo HP:0009800 directamente desde HPO en formato excel e insertamos en la lista el gen GNB3.
+Descargamos la lista de genes implicados al fenotipo HP:0009800 directamente desde HPO en formato xlsx e insertamos en la lista el gen GNB3 (id = 2784).
 
 Utilizamos la librería stringdb de Python para obtener la red de interacción de los genes asociados al fenotipo.
 
 Mediante la librería de igraph se construyó la red de interacción de genes y se realizó un algoritmo de detección de comunidades basado en ``edge betweenness'' \cite{Girvan2002}. Una vez realizada la detección, se seleccionó la comunidad donde estaba presente el gen GNB3.
 
-Realizamos un enriquecimiento funcional de los genes que formaban parte de esa comunidad con la librería de stringdb. 
+Realizamos un enriquecimiento funcional de los genes que formaban parte de esa comunidad con la librería de stringdb y filtramos el resultado para quedarnos con las filas donde aparece GNB3. 
 
-Se creó una nueva red mediante una propagación en red de los genes presentes en la comunidad de interés con un nuevo parámetro de entrada para añadir 16 genes más. A partir de esta red volvimos a realizar un enriquecimiento funcional.
+Se creó una nueva red mediante una propagación en red de los genes presentes en la comunidad de interés con el parámetro ``add\_nodes = 16''. A partir de esta red volvimos a realizar un enriquecimiento funcional.
