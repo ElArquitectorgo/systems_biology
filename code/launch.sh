@@ -18,7 +18,7 @@ echo "Enriquecimiento funcional"
 python functional_enrichment.py interest_nodes.csv network_expandido.csv enrichment.csv enrichment_expandido.csv
 
 echo "Evaluación de la red expandida"
-python network_evaluation.py network_expandido.csv network_expandido.svg comunidades_expandido.svg
+python network_evaluation.py network_expandido.csv network_expandido.svg comunidades_expandido.svg nodes_expandido.csv
 
 deactivate
 
