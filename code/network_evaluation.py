@@ -21,6 +21,10 @@ data = pd.read_csv(csv_path)
 g = Graph.TupleList(data.itertuples(index=False),directed=False)
 g = g.simplify()
 
+# Almacenar la cantidad de nodos y aristas de la red con el gnb3
+nodes_edges_count = pd.DataFrame({'Nodes': [len(g.vs)], 'Edges': [len(g.es)]})
+nodes_edges_count.to_csv(os.path.join(path, '..', 'results', 'nodes_edges_count_after_gnb3.csv'), index=False)
+
 colors = ["lightgreen" if name == "GNB3" else "#FF6961" for name in g.vs["name"]]
 
 # Guardar el grafo en formato SVG
