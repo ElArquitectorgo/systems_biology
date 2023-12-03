@@ -3,6 +3,12 @@ import sys
 import pandas as pd
 import os
 
+"""
+Calcula el grafo de una red y el grafo de sus comunidades.
+Guarda el nombre de los nodos de la comunidad donde se encuentra el gen
+de interés.
+"""
+
 # Obtener la ruta absoluta del script actual
 path = os.path.dirname(os.path.abspath(__file__))
 

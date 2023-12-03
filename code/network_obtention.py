@@ -2,6 +2,10 @@ import os
 import pandas as pd
 import stringdb
 
+"""
+Obtiene la red de interacciónes de los genes dados.
+"""
+
 # Obtener la ruta del directorio actual (donde está el script)
 path = os.path.dirname(os.path.realpath(__file__))
 

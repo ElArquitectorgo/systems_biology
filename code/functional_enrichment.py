@@ -1,9 +1,14 @@
 import os
 import sys
-import subprocess
 import csv
 import pandas as pd
 import stringdb
+
+"""
+Calcular el enriquecimiento funcional de un conjunto de genes. 
+Adicionalmente se expande ese conjunto con 16 nodos más y se 
+calcula nuevamente el enriquecimiento.
+"""
 
 # Obtener la ruta del directorio actual (donde está el script)
 path = os.path.dirname(os.path.realpath(__file__))
@@ -18,20 +23,6 @@ with open(csv_path, newline='') as csvfile:
 
 # Crear red ampliada
 new_network = stringdb.get_network(identifiers=genes, species = 9606, add_nodes=16)
-
-n = pd.DataFrame()
-n = new_network[['preferredName_A', 'preferredName_B']]
-n.to_csv(os.path.join(path, '..', 'results', sys.argv[2]), header=None, index=None, sep=',', mode='w')
-
-# Importar red original y expandir con la nueva
-#original_network = pd.read_csv(os.path.join(path, '..', 'results', 'network.csv'))
-#original_network.columns = ['preferredName_A', 'preferredName_B']
-
-#expanded_network = pd.merge(n, original_network, how='outer')
-#expanded_network.to_csv(os.path.join(path, '..', 'results', 'network.csv'), header=None, index=None, sep=',', mode='w')
-
-# Ejecutar 'network_evaluation.py' para la nueva red
-#subprocess.run(["python", "network_evaluation.py", '_expandida'])
 
 # Obtener los valores únicos
 ids = pd.concat([new_network['stringId_A'], new_network['stringId_B']])
@@ -49,8 +40,8 @@ first_result = get_functional_enrichment(genes)
 second_result = get_functional_enrichment(unique_ids)
 
 # Construimos la ruta del archivo de salida
-first_output = os.path.join(path, f"../results/{sys.argv[3]}")
-second_output = os.path.join(path, f"../results/{sys.argv[4]}")
+first_output = os.path.join(path, f"../results/{sys.argv[2]}")
+second_output = os.path.join(path, f"../results/{sys.argv[3]}")
 # Guardamos el DataFrame en un archivo csv
 first_result.to_csv(first_output, index=False)
 second_result.to_csv(second_output, index=False)
