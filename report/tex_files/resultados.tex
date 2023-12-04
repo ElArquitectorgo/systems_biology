@@ -3,13 +3,13 @@
 
 \subsection{Visión General}
 
-Hemos investigado el uso de la biología de sistemas para entender mejor el fenotipo diabetes materna. Hemos analizado la red de genes relacionados con el fenotipo a partir de datos e interacción proteína-proteína descargados de STRINGdb con el propósito de estudiar la relación entre la diabetes materna y el gen GNB3.
+Hemos investigado el uso de la biología de sistemas para entender mejor el fenotipo diabetes materna. En esta sección presentaremos los resultados del análisis de la red de genes relacionados con el fenotipo a partir de datos de interacción proteína-proteína descargados de STRINGdb con el propósito de estudiar la relación entre la diabetes materna y el gen GNB3.
 
 A continuación procederemos a detallar los resultados obtenidos al ejecutar nuestro flujo de trabajo.
 
 \subsection{Red de interacción}
 
-Al descargar la lista de genes implicados en el fenotipo de estudio, observamos que la cantidad de enfermedades asociadas son 31 y los genes son 43. Hemos generado la red de interacción entre esto genes para obtener la cantidad de nodos e interacciones entre ellos. En la Tabla~\ref{table:nodes_edges_count} se puede observar la cantidad de nodos (genes) y edges (interacciones) de la red sin incluir el gen GNB3 e incluyendo al gen para hacer la red.
+Al descargar la lista de genes implicados en el fenotipo de estudio, observamos que la cantidad de enfermedades asociadas son 31 y los genes son 43. Hemos generado la red de interacción entre estos genes para obtener la cantidad de nodos e interacciones entre ellos. En la Tabla~\ref{table:nodes_edges_count} se puede observar la cantidad de nodos (genes) y edges (interacciones) de la red sin incluir el gen GNB3 e incluyendo al gen para hacer la red.
 
 
 \begin{table}[h]
@@ -34,7 +34,7 @@ La red generada por stringdb usando los genes asociados a la diabetes materna y 
 
 \subsection{Detección de comunidades}
 
-Hemos detectado las comunidades de la red obtenida en el paso anterior, usando el método de iGraph, ``edge betweenness'' descrito en métodos. Obtuvimos cinco comunidades a partir de la red de interacciones. El GNB3 se encuentra presente en una comunidad con otros dos nodos, los genes SLC12A3 y el CLCNKB, como puede observarse en la Figura~\ref{fig:comunidad}.
+Hemos detectado las comunidades de la red obtenida en el paso anterior, usando el método ``edge betweenness'' descrito en la sección de métodos. Obtuvimos cinco comunidades a partir de la red de interacciones. El GNB3 se encuentra presente en una comunidad con otros dos nodos, los genes SLC12A3 y el CLCNKB, como puede observarse en la Figura~\ref{fig:comunidad}.
 
 \begin{figure}[h!]
 	\includegraphics[width=0.9\textwidth]{figures/comunidades.pdf}
@@ -44,7 +44,7 @@ Hemos detectado las comunidades de la red obtenida en el paso anterior, usando e
 
 \subsection{Enriquecimiento funcional}
 
-Una vez detectada la comunidad a la que pertenece el GNB3 en la red de estudio, hemos obtenido el enriquecimiento funcional para los tres genes pertenecientes a la comunidad.  Filtrando aquellos resultados en los que aparece el gen GNB3, el análisis demostró, un enriquecimiento para el fenotipo de anormalidad de la visión, con un p-valor de 0.00021, como se puede observar en la Tabla~\ref{table:enriquecimiento1}
+Una vez detectada la comunidad a la que pertenece el GNB3 en la red de estudio, hemos obtenido el enriquecimiento funcional para los tres genes pertenecientes a la comunidad.  Filtrando aquellos resultados en los que aparece el gen GNB3, el análisis demostró un enriquecimiento para el fenotipo HPO de anormalidad de la visión, con un p-valor de 0.00021, como se puede observar en la Tabla~\ref{table:enriquecimiento1}
 
 \begin{table}[h]
 	\centering
@@ -60,7 +60,7 @@ Una vez detectada la comunidad a la que pertenece el GNB3 en la red de estudio, 
 
 \subsection{Propagación de la red}
 
-Hemos realizado la propagación de la red añadiendo 16 nodos más, que interaccionan con los tres genes pertenecientes a la comunidad del gen GNB3. A continuación, hemos procedido a realizar el enriquecimiento funcional incluyendo los nuevos genes. En este caso, el gen de interés apareció implicado en más procesos, de los cuales se muestran aquellos relacionados con la regulación de insulina y glucagón en la Tabla~\ref{table:enriquecimiento2}. Se puede observar que en todos los casos representados, hay un enriquecimiento significativo en términos relacionados con Reactome (RCTM).
+Hemos realizado la propagación de la red añadiendo 16 nodos más, que interaccionan con los tres genes pertenecientes a la comunidad del gen GNB3. A continuación, hemos procedido a realizar el enriquecimiento funcional incluyendo los nuevos genes. En este caso, el gen de interés apareció implicado en 96 procesos, de los cuales se muestran aquellos relacionados con la regulación de insulina y glucagón en la Tabla~\ref{table:enriquecimiento2}. Se puede observar que, en todos los casos representados, hay un enriquecimiento significativo en términos relacionados con RCTM, que ha sido introducido en la sección de métodos.
 
 
 \begin{table}[h]
