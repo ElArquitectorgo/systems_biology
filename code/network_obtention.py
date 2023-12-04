@@ -22,17 +22,14 @@ genes_ids = list(map(str, genes_ids))
 
 # Obtener la red de interacciónes de los genes dados
 network_without_gnb3 = stringdb.get_network(identifiers=genes_ids, species=9606)
-edges = [(row['preferredName_A'], row['preferredName_B']) for index, row in network_without_gnb3.iterrows()]
-G = Graph.TupleList(edges, directed=False)
+print(f'Network without GNB3 - Nodes: {len(genes_ids)}, Edges: {len(network_without_gnb3)}')
 
-# Almacenar la cantidad de nodos y aristas de la red original
-nodes_edges_count = pd.DataFrame({'Nodes': [len(G.vs)], 'Edges': [len(G.es)]})
-nodes_edges_count.to_csv(os.path.join(path, '..', 'results', 'nodes_edges_count_before_gnb3.csv'), index=False)
-
-
+# Añadimos el gen GNB3
 genes_ids.append("2784")
 
 network = stringdb.get_network(identifiers=genes_ids, species=9606)
+
 n = pd.DataFrame()
 n = network[['preferredName_A', 'preferredName_B']]
 n.to_csv(os.path.join(path, '..', 'results', 'network.csv'), header=None, index=None, sep=',', mode='w')
+print(f'Network with GNB3 - Nodes: {len(genes_ids)}, Edges: {len(n)}')
