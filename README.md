@@ -18,7 +18,7 @@ sistems_biology es un proyecto de la asignatura Biología de Sistemas en Ingenie
 ## Contenido
 - `network_obtention.py`: Extrae genes relacionados con la diabetes materna y construye la red de genes.
 - `network_evaluation.py`: Evalúa la red e identifica comunidades de genes.
-- `enriquecimiento_funcional.py`: Realiza un análisis de enriquecimiento funcional de genes dentro de la comunidad GNB3, amplía la red y hace un segundo análisis de enriquecimiento funcional.
+- `functional_enrichment.py`: Realiza un análisis de enriquecimiento funcional de genes dentro de la comunidad GNB3, amplía la red y hace un segundo análisis de enriquecimiento funcional.
 - `launch.sh`: Script Shell que crea un entorno virtual usando el módulo `venv` de Python, instala las dependencias necesarias e inicia los scripts Python en la secuencia correcta.
 - `setup.sh`: Configura el entorno, incluyendo la instalación de las librerías Python necesarias.
 - `requirements.txt`: Lista todas las dependencias de Python para el proyecto.
