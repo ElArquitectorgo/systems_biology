@@ -19,10 +19,10 @@ sistems_biology es un proyecto de la asignatura Biología de Sistemas en Ingenie
 1. Clona el repositorio en tu máquina local.
 2. Asegúrate de que Python 3.x está instalado en tu sistema, con el módulo `venv`.
 
-3. ```
-   git clone https://github.com/ElArquitectorgo/systems_biology.git
-   python3 -m pip install virtualenv
-   ```
+```
+git clone https://github.com/ElArquitectorgo/systems_biology.git
+python3 -m pip install virtualenv
+```
 
 ### Nota importante para usuarios de macOS
 
@@ -30,12 +30,12 @@ En macOS, es posible que se muestre un mensaje solicitando la instalación de `c
 
 ## Uso
 Para ejecutar los scripts:
-1. Ejecute `launch.sh` para iniciar el análisis:
-   ```
-   cd code
-   ./launch.sh
-   ```
-2. Los scripts se ejecutarán en el orden necesario, realizando el análisis de red y el enriquecimiento funcional. Una vez que la ejecución termine, puedes ver los resultados en el directorio `results`
+Ejecute `launch.sh` para iniciar el análisis:
+```
+cd code
+./launch.sh
+```
+Los scripts se ejecutarán en el orden necesario, realizando el análisis de red y el enriquecimiento funcional. Una vez que la ejecución termine, puedes ver los resultados en el directorio `results`
 
 
 ## Contenido
