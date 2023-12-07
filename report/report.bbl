@@ -554,32 +554,6 @@ doi:\doiurl{10.1093/nar/gkw1039}
 \endbibitem
 
 %%% 28
-\bibitem{Szklarczyk2015}
-\begin{botherref}
-\oauthor{\bsnm{Szklarczyk}, \binits{D.}},
-\oauthor{\bsnm{Franceschini}, \binits{A.}},
-\oauthor{\bsnm{Wyder}, \binits{S.}},
-\oauthor{\bsnm{Forslund}, \binits{K.}},
-\oauthor{\bsnm{Heller}, \binits{D.}},
-\oauthor{\bsnm{Huerta-Cepas}, \binits{J.}},
-\oauthor{\bsnm{Simonovic}, \binits{M.}},
-\oauthor{\bsnm{Roth}, \binits{A.}},
-\oauthor{\bsnm{Santos}, \binits{A.}},
-\oauthor{\bsnm{Tsafou}, \binits{K.P.}},
-\oauthor{\bsnm{Kuhn}, \binits{M.}},
-\oauthor{\bsnm{Bork}, \binits{P.}},
-\oauthor{\bsnm{Jensen}, \binits{L.J.}},
-\oauthor{\bsnm{Mering}, \binits{C.V.}}:
-String v10: Protein-protein interaction networks, integrated over the tree of
-  life.
-Nucleic Acids Research
-\textbf{43}
-(2015).
-doi:\doiurl{10.1093/nar/gku1003}
-\end{botherref}
-\endbibitem
-
-%%% 29
 \bibitem{Mering2005}
 \begin{botherref}
 \oauthor{\bparticle{von} \bsnm{Mering}, \binits{C.}},
@@ -600,7 +574,7 @@ doi:\doiurl{10.1093/nar/gki005}
 \end{botherref}
 \endbibitem
 
-%%% 30
+%%% 29
 \bibitem{McKinney2015}
 \begin{botherref}
 \oauthor{\bsnm{McKinney}, \binits{W.}},
@@ -611,7 +585,7 @@ Pandas - Powerful Python Data Analysis Toolkit
 \end{botherref}
 \endbibitem
 
-%%% 31
+%%% 30
 \bibitem{Csardi2006}
 \begin{botherref}
 \oauthor{\bsnm{Csardi}, \binits{G.}},
@@ -623,7 +597,7 @@ InterJournal Complex Systems
 \end{botherref}
 \endbibitem
 
-%%% 32
+%%% 31
 \bibitem{Girvan2002}
 \begin{botherref}
 \oauthor{\bsnm{Girvan}, \binits{M.}},
@@ -636,20 +610,62 @@ doi:\doiurl{10.1073/pnas.122653799}
 \end{botherref}
 \endbibitem
 
+%%% 32
+\bibitem{Gillespie2021}
+\begin{barticle}
+\bauthor{\bsnm{Gillespie}, \binits{M.}},
+\bauthor{\bsnm{Jassal}, \binits{B.}},
+\bauthor{\bsnm{Stephan}, \binits{R.}},
+\bauthor{\bsnm{Milacic}, \binits{M.}},
+\bauthor{\bsnm{Rothfels}, \binits{K.}},
+\bauthor{\bsnm{Senff-Ribeiro}, \binits{A.}},
+\bauthor{\bsnm{Griss}, \binits{J.}},
+\bauthor{\bsnm{Sevilla}, \binits{C.}},
+\bauthor{\bsnm{Matthews}, \binits{L.}},
+\bauthor{\bsnm{Gong}, \binits{C.}},
+\bauthor{\bsnm{Deng}, \binits{C.}},
+\bauthor{\bsnm{Varusai}, \binits{T.}},
+\bauthor{\bsnm{Ragueneau}, \binits{E.}},
+\bauthor{\bsnm{Haider}, \binits{Y.}},
+\bauthor{\bsnm{May}, \binits{B.}},
+\bauthor{\bsnm{Shamovsky}, \binits{V.}},
+\bauthor{\bsnm{Weiser}, \binits{J.}},
+\bauthor{\bsnm{Brunson}, \binits{T.}},
+\bauthor{\bsnm{Sanati}, \binits{N.}},
+\bauthor{\bsnm{Beckman}, \binits{L.}},
+\bauthor{\bsnm{Shao}, \binits{X.}},
+\bauthor{\bsnm{Fabregat}, \binits{A.}},
+\bauthor{\bsnm{Sidiropoulos}, \binits{K.}},
+\bauthor{\bsnm{Murillo}, \binits{J.}},
+\bauthor{\bsnm{Viteri}, \binits{G.}},
+\bauthor{\bsnm{Cook}, \binits{J.}},
+\bauthor{\bsnm{Shorser}, \binits{S.}},
+\bauthor{\bsnm{Bader}, \binits{G.}},
+\bauthor{\bsnm{Demir}, \binits{E.}},
+\bauthor{\bsnm{Sander}, \binits{C.}},
+\bauthor{\bsnm{Haw}, \binits{R.}},
+\bauthor{\bsnm{Wu}, \binits{G.}},
+\bauthor{\bsnm{Stein}, \binits{L.}},
+\bauthor{\bsnm{Hermjakob}, \binits{H.}},
+\bauthor{\bsnm{D’Eustachio}, \binits{P.}}:
+\batitle{The reactome pathway knowledgebase 2022}.
+\bjtitle{Nucleic Acids Research}
+(\byear{2021}).
+doi:\doiurl{10.1093/nar/gkab1028}
+\end{barticle}
+\endbibitem
+
 %%% 33
-\bibitem{Dong2023}
+\bibitem{Nelson1986}
 \begin{botherref}
-\oauthor{\bsnm{Dong}, \binits{Y.}},
-\oauthor{\bsnm{Li}, \binits{Z.}},
-\oauthor{\bsnm{Tian}, \binits{Y.}},
-\oauthor{\bsnm{Sun}, \binits{C.}},
-\oauthor{\bsnm{Godfrey}, \binits{M.W.}},
-\oauthor{\bsnm{Nagappan}, \binits{M.}}:
-Bash in the wild: Language usage, code smells, and bugs.
-ACM Transactions on Software Engineering and Methodology
-\textbf{32}
-(2023).
-doi:\doiurl{10.1145/3517193}
+\oauthor{\bsnm{Nelson}, \binits{M.}},
+\oauthor{\bsnm{Lessell}, \binits{S.}},
+\oauthor{\bsnm{Sadun}, \binits{A.A.}}:
+Optic nerve hypoplasia and maternal diabetes mellitus.
+Archives of Neurology
+\textbf{43}
+(1986).
+doi:\doiurl{10.1001/archneur.1986.00520010016013}
 \end{botherref}
 \endbibitem
 
@@ -1157,30 +1173,6 @@ doi:\doiurl{10.1145/3517193}
 </bibl>
 
 <bibl id="B28">
-  <title><p>STRING v10: Protein-protein interaction networks, integrated over
-  the tree of life</p></title>
-  <aug>
-    <au><snm>Szklarczyk</snm><fnm>D</fnm></au>
-    <au><snm>Franceschini</snm><fnm>A</fnm></au>
-    <au><snm>Wyder</snm><fnm>S</fnm></au>
-    <au><snm>Forslund</snm><fnm>K</fnm></au>
-    <au><snm>Heller</snm><fnm>D</fnm></au>
-    <au><snm>Huerta Cepas</snm><fnm>J</fnm></au>
-    <au><snm>Simonovic</snm><fnm>M</fnm></au>
-    <au><snm>Roth</snm><fnm>A</fnm></au>
-    <au><snm>Santos</snm><fnm>A</fnm></au>
-    <au><snm>Tsafou</snm><fnm>KP</fnm></au>
-    <au><snm>Kuhn</snm><fnm>M</fnm></au>
-    <au><snm>Bork</snm><fnm>P</fnm></au>
-    <au><snm>Jensen</snm><fnm>LJ</fnm></au>
-    <au><snm>Mering</snm><fnm>CV</fnm></au>
-  </aug>
-  <source>Nucleic Acids Research</source>
-  <pubdate>2015</pubdate>
-  <volume>43</volume>
-</bibl>
-
-<bibl id="B29">
   <title><p>STRING: Known and predicted protein-protein associations,
   integrated and transferred across organisms</p></title>
   <aug>
@@ -1199,7 +1191,7 @@ doi:\doiurl{10.1145/3517193}
   <volume>33</volume>
 </bibl>
 
-<bibl id="B30">
+<bibl id="B29">
   <title><p>Pandas - Powerful Python Data Analysis Toolkit</p></title>
   <aug>
     <au><snm>McKinney</snm><fnm>W</fnm></au>
@@ -1209,7 +1201,7 @@ doi:\doiurl{10.1145/3517193}
   <pubdate>2015</pubdate>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B30">
   <title><p>The igraph software package for complex network
   research</p></title>
   <aug>
@@ -1221,7 +1213,7 @@ doi:\doiurl{10.1145/3517193}
   <volume>Complex Sy</volume>
 </bibl>
 
-<bibl id="B32">
+<bibl id="B31">
   <title><p>Community structure in social and biological networks</p></title>
   <aug>
     <au><snm>Girvan</snm><fnm>M.</fnm></au>
@@ -1233,19 +1225,60 @@ doi:\doiurl{10.1145/3517193}
   <volume>99</volume>
 </bibl>
 
-<bibl id="B33">
-  <title><p>Bash in the Wild: Language Usage, Code Smells, and Bugs</p></title>
+<bibl id="B32">
+  <title><p>The Reactome Pathway Knowledgebase 2022</p></title>
   <aug>
-    <au><snm>Dong</snm><fnm>Y</fnm></au>
-    <au><snm>Li</snm><fnm>Z</fnm></au>
-    <au><snm>Tian</snm><fnm>Y</fnm></au>
-    <au><snm>Sun</snm><fnm>C</fnm></au>
-    <au><snm>Godfrey</snm><fnm>MW</fnm></au>
-    <au><snm>Nagappan</snm><fnm>M</fnm></au>
+    <au><snm>Gillespie</snm><fnm>M</fnm></au>
+    <au><snm>Jassal</snm><fnm>B</fnm></au>
+    <au><snm>Stephan</snm><fnm>R</fnm></au>
+    <au><snm>Milacic</snm><fnm>M</fnm></au>
+    <au><snm>Rothfels</snm><fnm>K</fnm></au>
+    <au><snm>Senff Ribeiro</snm><fnm>A</fnm></au>
+    <au><snm>Griss</snm><fnm>J</fnm></au>
+    <au><snm>Sevilla</snm><fnm>C</fnm></au>
+    <au><snm>Matthews</snm><fnm>L</fnm></au>
+    <au><snm>Gong</snm><fnm>C</fnm></au>
+    <au><snm>Deng</snm><fnm>C</fnm></au>
+    <au><snm>Varusai</snm><fnm>T</fnm></au>
+    <au><snm>Ragueneau</snm><fnm>E</fnm></au>
+    <au><snm>Haider</snm><fnm>Y</fnm></au>
+    <au><snm>May</snm><fnm>B</fnm></au>
+    <au><snm>Shamovsky</snm><fnm>V</fnm></au>
+    <au><snm>Weiser</snm><fnm>J</fnm></au>
+    <au><snm>Brunson</snm><fnm>T</fnm></au>
+    <au><snm>Sanati</snm><fnm>N</fnm></au>
+    <au><snm>Beckman</snm><fnm>L</fnm></au>
+    <au><snm>Shao</snm><fnm>X</fnm></au>
+    <au><snm>Fabregat</snm><fnm>A</fnm></au>
+    <au><snm>Sidiropoulos</snm><fnm>K</fnm></au>
+    <au><snm>Murillo</snm><fnm>J</fnm></au>
+    <au><snm>Viteri</snm><fnm>G</fnm></au>
+    <au><snm>Cook</snm><fnm>J</fnm></au>
+    <au><snm>Shorser</snm><fnm>S</fnm></au>
+    <au><snm>Bader</snm><fnm>G</fnm></au>
+    <au><snm>Demir</snm><fnm>E</fnm></au>
+    <au><snm>Sander</snm><fnm>C</fnm></au>
+    <au><snm>Haw</snm><fnm>R</fnm></au>
+    <au><snm>Wu</snm><fnm>G</fnm></au>
+    <au><snm>Stein</snm><fnm>L</fnm></au>
+    <au><snm>Hermjakob</snm><fnm>H</fnm></au>
+    <au><snm>D’Eustachio</snm><fnm>P</fnm></au>
   </aug>
-  <source>ACM Transactions on Software Engineering and Methodology</source>
-  <pubdate>2023</pubdate>
-  <volume>32</volume>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2021</pubdate>
+  <url>https://doi.org/10.1093/nar/gkab1028</url>
+</bibl>
+
+<bibl id="B33">
+  <title><p>Optic Nerve Hypoplasia and Maternal Diabetes Mellitus</p></title>
+  <aug>
+    <au><snm>Nelson</snm><fnm>M</fnm></au>
+    <au><snm>Lessell</snm><fnm>S</fnm></au>
+    <au><snm>Sadun</snm><fnm>AA</fnm></au>
+  </aug>
+  <source>Archives of Neurology</source>
+  <pubdate>1986</pubdate>
+  <volume>43</volume>
 </bibl>
 
 </refgrp>
