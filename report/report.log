@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.17)  8 DEC 2023 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.17)  8 DEC 2023 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,7 +338,7 @@ ades.pdf>]
 
 LaTeX Warning: Citation `Haynes2013' on page 7 undefined on input line 10.
 
-) (tex_files/conclusiones.tex) (report.bbl
+) (tex_files/conclusiones.tex) (report.bbl [7]
 ! Misplaced alignment tab character &.
 <argument> ...etes mellitus: A systematic review &
                                                    meta-analysis
@@ -392,7 +392,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[7] [8]) [9] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+[9] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -415,7 +419,7 @@ Here is how much of TeX's memory you used:
  25471 multiletter control sequences out of 15000+600000
  566348 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,942b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,942b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr10.pfb><C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -427,7 +431,7 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Jua
 nca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 C:/Users/Juanca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ssi8.pfb>
-Output written on report.pdf (9 pages, 282446 bytes).
+Output written on report.pdf (9 pages, 282985 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
