@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -611,6 +611,17 @@ doi:\doiurl{10.1073/pnas.122653799}
 \endbibitem
 
 %%% 32
+\bibitem{Chicco2022}
+\begin{botherref}
+\oauthor{\bsnm{Chicco}, \binits{D.}},
+\oauthor{\bsnm{Jurman}, \binits{G.}}:
+A brief survey of tools for genomic regions enrichment analysis
+(2022).
+doi:\doiurl{10.3389/fbinf.2022.968327}
+\end{botherref}
+\endbibitem
+
+%%% 33
 \bibitem{Gillespie2021}
 \begin{barticle}
 \bauthor{\bsnm{Gillespie}, \binits{M.}},
@@ -655,7 +666,7 @@ doi:\doiurl{10.1093/nar/gkab1028}
 \end{barticle}
 \endbibitem
 
-%%% 33
+%%% 34
 \bibitem{Nelson1986}
 \begin{botherref}
 \oauthor{\bsnm{Nelson}, \binits{M.}},
@@ -669,7 +680,7 @@ doi:\doiurl{10.1001/archneur.1986.00520010016013}
 \end{botherref}
 \endbibitem
 
-%%% 34
+%%% 35
 \bibitem{Haynes2013}
 \begin{botherref}
 \oauthor{\bsnm{Haynes}, \binits{W.A.}},
@@ -1242,6 +1253,18 @@ doi:\doiurl{10.1371/journal.pcbi.1002967}
 </bibl>
 
 <bibl id="B32">
+  <title><p>A brief survey of tools for genomic regions enrichment
+  analysis</p></title>
+  <aug>
+    <au><snm>Chicco</snm><fnm>D</fnm></au>
+    <au><snm>Jurman</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Frontiers in Bioinformatics</source>
+  <pubdate>2022</pubdate>
+  <volume>2</volume>
+</bibl>
+
+<bibl id="B33">
   <title><p>The Reactome Pathway Knowledgebase 2022</p></title>
   <aug>
     <au><snm>Gillespie</snm><fnm>M</fnm></au>
@@ -1285,7 +1308,7 @@ doi:\doiurl{10.1371/journal.pcbi.1002967}
   <url>https://doi.org/10.1093/nar/gkab1028</url>
 </bibl>
 
-<bibl id="B33">
+<bibl id="B34">
   <title><p>Optic Nerve Hypoplasia and Maternal Diabetes Mellitus</p></title>
   <aug>
     <au><snm>Nelson</snm><fnm>M</fnm></au>
@@ -1297,7 +1320,7 @@ doi:\doiurl{10.1371/journal.pcbi.1002967}
   <volume>43</volume>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B35">
   <title><p>Differential Expression Analysis for Pathways</p></title>
   <aug>
     <au><snm>Haynes</snm><fnm>WA</fnm></au>

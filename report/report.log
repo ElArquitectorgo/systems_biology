@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.15)  13 DEC 2023 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.15)  13 DEC 2023 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,7 +304,10 @@ Package pdftex.def Info: figures/workflow.png  used on input line 19.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2]) (tex_files/resultados.tex [3 <./figures/workflow.png>]
+[2]) (tex_files/resultados.tex
+Underfull \vbox (badness 5726) has occurred while \output is active []
+
+ [3 <./figures/workflow.png>]
 <figures/network.pdf, id=20, 602.25pt x 602.25pt>
 File: figures/network.pdf Graphic file (type pdf)
 <use figures/network.pdf>
@@ -327,6 +330,7 @@ Overfull \hbox (12.42351pt too wide) in paragraph at lines 54--60
  [][] 
  []
 
+[4]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -878,8 +882,8 @@ Overfull \hbox (48.96074pt too wide) in paragraph at lines 72--83
  [][] 
  []
 
-[4]) (tex_files/discusion.tex [5 <./figures/network.pdf>] [6 <./figures/comunid
-ades.pdf>]) (tex_files/conclusiones.tex) (report.bbl [7]
+) (tex_files/discusion.tex [5 <./figures/network.pdf>] [6 <./figures/comunidade
+s.pdf>]) (tex_files/conclusiones.tex) (report.bbl [7]
 ! Misplaced alignment tab character &.
 <argument> ...etes mellitus: A systematic review &
                                                    meta-analysis
@@ -933,11 +937,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8])
-[9] 
+[8]) [9] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
 
@@ -946,10 +946,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4053 strings out of 476374
- 66499 string characters out of 5788382
- 1868340 words of memory out of 5000000
- 24373 multiletter control sequences out of 15000+600000
+ 4054 strings out of 476374
+ 66511 string characters out of 5788382
+ 1867340 words of memory out of 5000000
+ 24374 multiletter control sequences out of 15000+600000
  520258 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,10n,76p,942b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -962,7 +962,7 @@ KTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/P_A_BG/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/P_A_BG/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/P
 _A_BG/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on report.pdf (9 pages, 273073 bytes).
+Output written on report.pdf (9 pages, 273250 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
