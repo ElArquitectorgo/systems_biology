@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -669,6 +669,22 @@ doi:\doiurl{10.1001/archneur.1986.00520010016013}
 \end{botherref}
 \endbibitem
 
+%%% 34
+\bibitem{Haynes2013}
+\begin{botherref}
+\oauthor{\bsnm{Haynes}, \binits{W.A.}},
+\oauthor{\bsnm{Higdon}, \binits{R.}},
+\oauthor{\bsnm{Stanberry}, \binits{L.}},
+\oauthor{\bsnm{Collins}, \binits{D.}},
+\oauthor{\bsnm{Kolker}, \binits{E.}}:
+Differential expression analysis for pathways.
+PLoS Computational Biology
+\textbf{9}
+(2013).
+doi:\doiurl{10.1371/journal.pcbi.1002967}
+\end{botherref}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -1279,6 +1295,20 @@ doi:\doiurl{10.1001/archneur.1986.00520010016013}
   <source>Archives of Neurology</source>
   <pubdate>1986</pubdate>
   <volume>43</volume>
+</bibl>
+
+<bibl id="B34">
+  <title><p>Differential Expression Analysis for Pathways</p></title>
+  <aug>
+    <au><snm>Haynes</snm><fnm>WA</fnm></au>
+    <au><snm>Higdon</snm><fnm>R</fnm></au>
+    <au><snm>Stanberry</snm><fnm>L</fnm></au>
+    <au><snm>Collins</snm><fnm>D</fnm></au>
+    <au><snm>Kolker</snm><fnm>E</fnm></au>
+  </aug>
+  <source>PLoS Computational Biology</source>
+  <pubdate>2013</pubdate>
+  <volume>9</volume>
 </bibl>
 
 </refgrp>

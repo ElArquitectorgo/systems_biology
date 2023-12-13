@@ -14,14 +14,15 @@ Al descargar la lista de genes implicados en el fenotipo de estudio, observamos 
 
 \begin{table}[h]
 	\centering
+	\caption{Cantidad de nodos e interacciones: Se ha creado la red de interacciones de los genes relacionados con el fenotipo y otra red añadiendo al gen de estudio. Finalmente, se ha obtenido la cantidad de nodos y edges de cada red.}
+	\label{table:nodes_edges_count}
 	\begin{tabular}{|c|c|c|}
 		\hline
-		Red & Nodos & Edges \\ \hline
+		\textbf{Red} & \textbf{Nodos} & \textbf{Edges} \\ \hline
 		Sin GNB3 & 43    & 272   \\ \hline
 		Con GNB3 & 44    & 276  \\ \hline
 	\end{tabular}
-	\caption{Cantidad de nodos e interacciones: Se ha creado la red de interacciones de los genes relacionados con el fenotipo y otra red añadiendo al gen de estudio. Finalmente, se ha obtenido la cantidad de nodos y edges de cada red.}
-	\label{table:nodes_edges_count}
+
 \end{table}
 
 La red generada por stringdb usando los genes asociados a la diabetes materna y el GNB3 se pude observar en la Figura~\ref{fig:network}.
@@ -48,14 +49,15 @@ Una vez detectada la comunidad a la que pertenece el GNB3 en la red de estudio, 
 
 \begin{table}[h]
 	\centering
+	\caption{Enriquecimiento funcional de la comunidad del gen GB3: Se observa el único resultado para el gen de interés.}
+	\label{table:enriquecimiento1}
 	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline
-		Preferred Names & Description & P-value & fdr & Category & Term \\ \hline
+		\textbf{Preferred Names} & \textbf{Description} & \textbf{P-value} & \textbf{fdr} & \textbf{Category} & \textbf{Term} \\ \hline
 		GNB3, CLCNKB, SLC12A3 & Abnormality of vision    & 0.00021 & 0.0197&  HPO & HP:0000504 \\ \hline
 
 	\end{tabular}
-	\caption{Enriquecimiento funcional de la comunidad del gen GB3: Se observa el único resultado para el gen de interés.}
-	\label{table:enriquecimiento1}
+
 \end{table}
 
 \subsection{Propagación de la red}
@@ -65,19 +67,20 @@ Hemos realizado la propagación de la red añadiendo 16 nodos más, que interacc
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		 Description & P-value & fdr & Category & Term \\ \hline
-		 Regulation of insulin secretion   & 9.38e-30 & 1.05e-27 &  RCTM & HSA-422356 \\ \hline
-		 Glucagon-like Peptide-1 (GLP1) regulates insulin secretion  & 3.57e-30 & 5.44e-28 &  RCTM & HSA-381676 \\ \hline
-		 Adrenaline,noradrenaline inhibits insulin secretion & 3.88e-29 & 3.28e-27 &  RCTM & HSA-400042 \\ \hline
-		 Glucagon-type ligand receptors & 2.51e-31 & 5.73e-29 &  RCTM & HSA-420092 \\ \hline
-		 Glucagon-like Peptide-1 (GLP1) regulates insulin secretion & 3.57e-30 & 5.44e-28 &  RCTM & HSA-381676 \\ \hline
-		 Glucagon signaling in metabolic regulation & 1.31e-25 & 6.95e-24 &  RCTM & HSA-163359 \\ \hline
-		 Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1) & 1.33e-06 & 4.39e-05 &  RCTM & HSA-381771 \\ \hline
-	\end{tabular}
-	\caption{Enriquecimiento funcional de la comunidad del gen GB3 expandida: Se observan los resultados que incluyen al gen GNB3 y que incluyen mecanismos relacionados con la insulina o el glucagón.}
+	\caption{Enriquecimiento funcional de la comunidad del gen GB3 expandida: Se observan los resultados que incluyen al gen GNB3 y que incluyen mecanismos relacionados con la insulina o el glucagón. Todos los resultados son de la categoría RCTM.}
 	\label{table:enriquecimiento2}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		 \textbf{Description} & \textbf{P-value} &\textbf{ fdr }&  \textbf{Term} \\ \hline
+		 Regulation of insulin secretion   & 9.38e-30 & 1.05e-27 &   HSA-422356 \\ \hline
+		 Glucagon-like Peptide-1 (GLP1) regulates insulin secretion  & 3.57e-30 & 5.44e-28  & HSA-381676 \\ \hline
+		 Adrenaline,noradrenaline inhibits insulin secretion & 3.88e-29 & 3.28e-27  & HSA-400042 \\ \hline
+		 Glucagon-type ligand receptors & 2.51e-31 & 5.73e-29  & HSA-420092 \\ \hline
+		 Glucagon-like Peptide-1 (GLP1) regulates insulin secretion & 3.57e-30 & 5.44e-28  & HSA-381676 \\ \hline
+		 Glucagon signaling in metabolic regulation & 1.31e-25 & 6.95e-24  & HSA-163359 \\ \hline
+		 Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1) & 1.33e-06 & 4.39e-05  & HSA-381771 \\ \hline
+	\end{tabular}
+
 \end{table}
 
 Después de haber presentado los resultados, la discusión de los mismos seguirá en la próxima sección.
