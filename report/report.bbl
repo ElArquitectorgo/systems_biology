@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{35}
+\begin{thebibliography}{36}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -667,6 +667,18 @@ doi:\doiurl{10.1093/nar/gkab1028}
 \endbibitem
 
 %%% 34
+\bibitem{Bailes2002}
+\begin{botherref}
+\oauthor{\bsnm{Bailes}, \binits{B.K.}}:
+Diabetes mellitus and its chronic complications.
+AORN Journal
+\textbf{76}
+(2002).
+doi:\doiurl{10.1016/S0001-2092(06)61065-X}
+\end{botherref}
+\endbibitem
+
+%%% 35
 \bibitem{Nelson1986}
 \begin{botherref}
 \oauthor{\bsnm{Nelson}, \binits{M.}},
@@ -680,7 +692,7 @@ doi:\doiurl{10.1001/archneur.1986.00520010016013}
 \end{botherref}
 \endbibitem
 
-%%% 35
+%%% 36
 \bibitem{Haynes2013}
 \begin{botherref}
 \oauthor{\bsnm{Haynes}, \binits{W.A.}},
@@ -1309,6 +1321,16 @@ doi:\doiurl{10.1371/journal.pcbi.1002967}
 </bibl>
 
 <bibl id="B34">
+  <title><p>Diabetes Mellitus and its Chronic Complications</p></title>
+  <aug>
+    <au><snm>Bailes</snm><fnm>BK</fnm></au>
+  </aug>
+  <source>AORN Journal</source>
+  <pubdate>2002</pubdate>
+  <volume>76</volume>
+</bibl>
+
+<bibl id="B35">
   <title><p>Optic Nerve Hypoplasia and Maternal Diabetes Mellitus</p></title>
   <aug>
     <au><snm>Nelson</snm><fnm>M</fnm></au>
@@ -1320,7 +1342,7 @@ doi:\doiurl{10.1371/journal.pcbi.1002967}
   <volume>43</volume>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B36">
   <title><p>Differential Expression Analysis for Pathways</p></title>
   <aug>
     <au><snm>Haynes</snm><fnm>WA</fnm></au>
