@@ -24,9 +24,8 @@ git clone https://github.com/ElArquitectorgo/systems_biology.git
 python3 -m pip install virtualenv
 ```
 
-### Nota importante para usuarios de macOS
-
-En macOS, es posible que se muestre un mensaje solicitando la instalación de `cairocffi` o `pycairo`. Aunque `cairocffi` ya está incluido en el `requirements.txt` y se instalará en el entorno virtual, puede ser necesario instalar `pycairo` en el entorno virtual para un correcto funcionamiento. Para ello, añade la línea `pycairo==1.25.1` al `requirements.txt` antes de ejecutar `launch.sh` o instala directamente el paquete en tu máquina con `pip install pycairo==1.25.1`.
+> [!WARNING]
+> En macOS, es posible que se muestre un mensaje solicitando la instalación de `cairocffi` o `pycairo`. Aunque `cairocffi` ya está incluido en el `requirements.txt` y se instalará en el entorno virtual, puede ser necesario instalar `pycairo` en el entorno virtual para un correcto funcionamiento. Para ello, añade la línea `pycairo==1.25.1` al `requirements.txt` antes de ejecutar `launch.sh` o instala directamente el paquete en tu máquina con `pip install pycairo==1.25.1`.
 
 ## Uso
 Para ejecutar los scripts:
