@@ -32,19 +32,20 @@ preferredNames,description,p_value,fdr,category,term
 "GNB3,GNG13,GNG11,GNGT1,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2",PI3K-Akt signaling pathway,5.31e-17,9.91e-16,KEGG,hsa04151
 "GNB3,GNG13,PLCB2,GNAT3",Taste transduction,1.13e-06,2e-05,KEGG,hsa04742
 "GNB3,GNG11,PLCB2,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2","(2021) A Novel Classification of Glioma Subgroup, Which Is Highly Correlated With the Clinical Characteristics and Tumor Tissue Characteristics, Based on the Expression Levels of Gbeta and Ggamma Genes.",4.9000000000000005e-27,2.15e-20,PMID,PMID:34222011
-"GNB3,GNG11,GNGT1,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2",(2013) Differential G protein subunit expression by prostate cancer cells and their interaction with CXCR5.,1.63e-24,3.56e-18,PMID,PMID:23773523
-"GNB3,GNG11,GNG3,GNG2,GNG5,GNG12,GNAS,GNG10,GNG7,GNG4",(2010) Functional gene group analysis reveals a role of synaptic heterotrimeric G proteins in cognitive ability.,5.49e-23,8.02e-17,PMID,PMID:20060087
+"GNB3,GNG11,GNGT1,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2",(2013) Differential G protein subunit expression by prostate cancer cells and their interaction with CXCR5.,1.63e-24,3.57e-18,PMID,PMID:23773523
+"GNB3,GNG11,GNG3,GNG2,GNG5,GNG12,GNAS,GNG10,GNG7,GNG4",(2010) Functional gene group analysis reveals a role of synaptic heterotrimeric G proteins in cognitive ability.,5.49e-23,8.03e-17,PMID,PMID:20060087
 "GNB3,GNG11,GNG2,GNG5,GNG12,GNAS,GNG10,GNG4",(2016) Large-Scale Analysis of Gene Expression Data Reveals a Novel Gene Expression Signature Associated with Colorectal Cancer Distant Recurrence.,2.33e-17,1.27e-11,PMID,PMID:27935967
-"GNB3,GNG13,GNG11,GNG2,GNG5,GNAS,GNG10,GNG7,GNGT2",(2020) Epitranscriptome of the ventral tegmental area in a deep brain-stimulated chronic unpredictable mild stress mouse model.,8e-16,3.89e-10,PMID,PMID:33343932
+"GNB3,GNG13,GNG11,GNG2,GNG5,GNAS,GNG10,GNG7,GNGT2",(2020) Epitranscriptome of the ventral tegmental area in a deep brain-stimulated chronic unpredictable mild stress mouse model.,8e-16,3.9e-10,PMID,PMID:33343932
 "GNB3,GNG13,GNG3,GNG7,GNGT2",(2020) Identification of potential molecular targets associated with proliferative diabetic retinopathy.,3.73e-11,1.36e-05,PMID,PMID:32290826
 "GNB3,GNG13,GNGT1,GNG5,GNG4,GNGT2",(2020) Bioinformatics identification of CCL821 as potential prognostic biomarkers in breast cancer microenvironment.,2.26e-10,6.6e-05,PMID,PMID:33146700
 "GNB3,PLCB2,GNG2,GNG4",(2020) An integrative bioinformatics analysis of caprine GNAI3 gene.,8.35e-10,0.00023,PMID,PMID:32366735
 "GNB3,GNG11,GNGT1,GNGT2",(2017) Invasion of Ancestral Mammals into Dim-light Environments Inferred from Adaptive Evolution of the Phototransduction Genes.,4.45e-09,0.00091,PMID,PMID:28425474
 "GNB3,GNGT1,GNAS,GNGT2",(2017) Gnaz couples the circadian and dopaminergic system to G protein-mediated signaling in mouse photoreceptors.,3.98e-08,0.0056,PMID,PMID:29088301
-"GNB3,GNG11,GNG2,GNG12",(2013) Androgen receptor-target genes in african american prostate cancer disparities.,1.49e-07,0.0146,PMID,PMID:23365759
-"GNB3,GNG13,GNG11,GNAS",(2018) A comparative analysis of rod bipolar cell transcriptomes identifies novel genes implicated in night vision.,3.77e-07,0.029,PMID,PMID:29615777
-"GNB3,GNGT1,GNGT2",(2007) Identification of novel retinal target genes of thyroid hormone in the human WERI cells by expression microarray analysis.,4.21e-07,0.0318,PMID,PMID:17655910
-"GNB3,GNGT1,GNGT2",(2017) Rethinking the Origin of Primates by Reconstructing Their Diel Activity Patterns Using Genetics and Morphology.,7.28e-07,0.0491,PMID,PMID:28928374
+"GNB3,GNGT1,GNGT2",(2023) Cross-species single-cell landscape of vertebrate pineal gland.,6.35e-08,0.0082,PMID,PMID:38018267
+"GNB3,GNG11,GNG2,GNG12",(2013) Androgen receptor-target genes in african american prostate cancer disparities.,1.49e-07,0.0143,PMID,PMID:23365759
+"GNB3,GNG13,GNG11,GNAS",(2018) A comparative analysis of rod bipolar cell transcriptomes identifies novel genes implicated in night vision.,3.77e-07,0.0285,PMID,PMID:29615777
+"GNB3,GNGT1,GNGT2",(2007) Identification of novel retinal target genes of thyroid hormone in the human WERI cells by expression microarray analysis.,4.21e-07,0.0313,PMID,PMID:17655910
+"GNB3,GNGT1,GNGT2",(2017) Rethinking the Origin of Primates by Reconstructing Their Diel Activity Patterns Using Genetics and Morphology.,7.28e-07,0.0484,PMID,PMID:28928374
 "GNB3,GNG13,GNG11,GNGT1,GNG3,GNG2,GNG5,GNG12,GNAS,GNG10,GNG7,GNG4,GNGT2",Prostacyclin signalling through prostacyclin receptor,8.6e-34,1.9599999999999997e-30,RCTM,HSA-392851
 "GNB3,GNG13,GNG11,GNGT1,PLCB2,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2",G beta:gamma signalling through PLC beta,1.42e-33,1.9599999999999997e-30,RCTM,HSA-418217
 "GNB3,GNG13,GNG11,GNGT1,PLCB2,GNG3,GNG2,GNG5,GNG12,GNG10,GNG7,GNG4,GNGT2",Presynaptic function of Kainate receptors,2.3000000000000002e-33,1.9599999999999997e-30,RCTM,HSA-500657
